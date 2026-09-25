@@ -192,7 +192,11 @@ function openCard(slug, { fly = true, fromKeyboard = false } = {}) {
   els.card.hidden = false;
   if (map) {
     map.setFilter('selected', ['==', ['get', 'slug'], slug]);
-    if (fly) map.flyTo({ center: [e.where.lon, e.where.lat], zoom: Math.max(map.getZoom(), 12), duration: reduceMotion() ? 0 : 1200 });
+    // Keep the marker visible beside the card: the card sits at the bottom on phones, top-left on desktop.
+    const narrow = matchMedia('(max-width: 900px)').matches;
+    const padding = narrow ? { top: 0, left: 0, right: 0, bottom: Math.min(els.card.offsetHeight, map.getContainer().clientHeight * 0.7) }
+      : { top: 0, bottom: 0, right: 0, left: Math.min(els.card.offsetWidth + 16, map.getContainer().clientWidth * 0.5) };
+    if (fly) map.flyTo({ center: [e.where.lon, e.where.lat], zoom: Math.max(map.getZoom(), 12), padding, duration: reduceMotion() ? 0 : 1200 });
   }
   for (const [s, li] of items) li.classList.toggle('active', s === slug);
   if (fromKeyboard) { returnFocus = document.activeElement; $('card-title').focus(); }
