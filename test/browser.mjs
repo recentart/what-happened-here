@@ -95,6 +95,10 @@ try {
   check('map has marker features', feats > 0, `(${feats})`);
   check('count shows all entries', (await evaluate('return document.getElementById("count").textContent')) === `${entries.length} entries`);
   await shot('home-desktop');
+  await evaluate('document.querySelectorAll("img").forEach((i) => { i.loading = "eager"; }); window.scrollTo(0, document.body.scrollHeight); return true');
+  check('all home page images load', await waitFor('[...document.images].every((i) => i.complete && i.naturalWidth > 0)', 30000),
+    await evaluate('return [...document.images].filter((i) => !(i.complete && i.naturalWidth > 0)).map((i) => i.src).slice(0, 3).join(" ")'));
+  await evaluate('window.scrollTo(0, 0); return true');
 
   // Marker click → card
   console.log('Markers and detail card');

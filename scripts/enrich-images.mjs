@@ -25,11 +25,14 @@ for (const file of [...files].sort()) {
   const m = [...meta.values()].find((v) => v.requested === 'File:' + file || v.file === 'File:' + file.replace(/_/g, ' '));
   if (!m || m.missing) { problems.push(`${file}: not found on Commons`); continue; }
   if (!licenceOk(m.license)) { problems.push(`${file}: licence "${m.license}" not accepted`); continue; }
-  const small = m.thumb.replace(/\/(\d+)px-/, '/640px-');
+  // Use the canonical upload host without tracking parameters, and only Wikimedia's
+  // standard thumbnail widths (other widths are refused with HTTP 400).
+  const src = m.thumb.replace('://thumb.wikimedia.org/', '://upload.wikimedia.org/').split('?')[0];
+  const isThumb = /\/\d+px-[^/]+$/.test(src);
   out[file] = {
     page: m.page,
-    src: m.thumb, // 1280px wide (or the original if smaller)
-    srcSmall: m.width > 640 ? small : m.thumb,
+    src, // 1280px wide (or the original if smaller)
+    srcSmall: isThumb && m.width > 500 ? src.replace(/\/\d+px-([^/]+)$/, '/500px-$1') : src,
     width: m.width, height: m.height,
     // Commons renders "Unknown author" templates twice when stripped of HTML.
     author: m.artist ? m.artist.replace(/^(.+?)\1$/, '$1') : null,

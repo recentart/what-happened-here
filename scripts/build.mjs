@@ -84,8 +84,9 @@ function img(e, { size = 'large', lazy = true, cls = '' } = {}) {
   const im = e.image && images[e.image.file];
   if (!im) return '';
   const src = size === 'small' ? im.srcSmall : im.src;
-  const h = Math.round((im.height / im.width) * (size === 'small' ? 640 : im.width));
-  return `<img class="${cls}" src="${esc(src)}" alt="${esc(e.image.alt)}" width="${size === 'small' ? 640 : im.width}" height="${h}"${lazy ? ' loading="lazy"' : ''} decoding="async" referrerpolicy="no-referrer">`;
+  const w = size === 'small' ? Math.min(500, im.width) : im.width;
+  const h = Math.round((im.height / im.width) * w);
+  return `<img class="${cls}" src="${esc(src)}" alt="${esc(e.image.alt)}" width="${w}" height="${h}"${lazy ? ' loading="lazy"' : ''} decoding="async" referrerpolicy="no-referrer">`;
 }
 function credit(file) {
   const im = images[file];
