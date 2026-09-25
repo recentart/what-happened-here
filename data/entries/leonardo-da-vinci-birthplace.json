@@ -1,0 +1,85 @@
+{
+  "slug": "leonardo-da-vinci-birthplace",
+  "title": "Leonardo da Vinci born near Vinci",
+  "category": "person",
+  "when": {
+    "label": "15 April 1452",
+    "start": [
+      1452,
+      4,
+      15
+    ]
+  },
+  "where": {
+    "name": "Anchiano, near Vinci, Tuscany",
+    "country": "Italy",
+    "lat": 43.799167,
+    "lon": 10.938133,
+    "precision": "area",
+    "wikidata": "Q154184",
+    "note": "Britannica gives Anchiano, near Vinci, as his birthplace."
+  },
+  "people": [
+    "Leonardo da Vinci",
+    "Ser Piero da Vinci"
+  ],
+  "tags": [
+    "Renaissance",
+    "art",
+    "engineering",
+    "Florence"
+  ],
+  "summary": "Leonardo da Vinci, painter, engineer and one of the defining figures of the Renaissance, was born at Anchiano near the Tuscan town of Vinci.",
+  "description": [
+    "Leonardo was born on 15 April 1452 at Anchiano, near Vinci, in the Republic of Florence. His parents were not married: his father, Ser Piero da Vinci, was a Florentine notary and landowner.",
+    "He became a painter, draughtsman, sculptor, architect and engineer, and died on 2 May 1519 at Cloux (now Clos-Lucé) in France."
+  ],
+  "context": [
+    "The town of Vinci is home to the Museo Leonardiano."
+  ],
+  "facts": [
+    {
+      "text": "Leonardo was born on 15 April 1452 at Anchiano, near Vinci.",
+      "s": [
+        1
+      ]
+    },
+    {
+      "text": "His father, Ser Piero da Vinci, was a Florentine notary.",
+      "s": [
+        1
+      ]
+    }
+  ],
+  "uncertain": [
+    {
+      "text": "The identity of his mother is not certain. Britannica says she was possibly Caterina di Meo Lippi, a young peasant woman, while a few scholars have suggested she was an enslaved woman from Asia.",
+      "s": [
+        1
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Leonardo da Vinci",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/biography/Leonardo-da-Vinci",
+      "supports": "Birth date and place, parents, death"
+    },
+    {
+      "title": "Museo Leonardiano di Vinci",
+      "publisher": "Museo Leonardiano",
+      "url": "https://museoleonardiano.it/",
+      "supports": "Museum in Vinci"
+    }
+  ],
+  "image": {
+    "file": "Maison natale de Léonard de Vinci.jpg",
+    "alt": "A small stone farmhouse among olive trees on a Tuscan hillside",
+    "caption": "The house at Anchiano presented as Leonardo's birthplace."
+  },
+  "related": [
+    "shakespeare-birthplace",
+    "colosseum"
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "slug": "curie-discovery-of-radium",
+  "title": "Marie and Pierre Curie discover polonium and radium",
+  "category": "invention",
+  "when": {
+    "label": "July – December 1898",
+    "start": [
+      1898,
+      7
+    ],
+    "end": [
+      1898,
+      12
+    ],
+    "note": "The Musée Curie dates the discovery of polonium to July 1898 and of radium to December 1898."
+  },
+  "where": {
+    "name": "École municipale de physique et de chimie industrielles (now ESPCI Paris)",
+    "place": "paris",
+    "country": "France",
+    "lat": 48.841389,
+    "lon": 2.346944,
+    "precision": "site",
+    "wikidata": "Q273638",
+    "note": "The director of the city's school of industrial physics and chemistry, where Pierre Curie taught, gave the couple a workshop that Marie Curie described as more like a shed than a laboratory. The school is now ESPCI Paris."
+  },
+  "people": [
+    "Marie Curie",
+    "Pierre Curie",
+    "Henri Becquerel",
+    "Gustave Bémont"
+  ],
+  "tags": [
+    "radioactivity",
+    "chemistry",
+    "physics",
+    "Nobel Prize",
+    "elements"
+  ],
+  "summary": "Working in a converted workshop at a Paris school, Marie and Pierre Curie identified two new radioactive elements in 1898: polonium in July and radium in December.",
+  "description": [
+    "Inspired by Henri Becquerel's discovery of radioactivity in 1896, Marie Curie chose the new phenomenon as the subject of her doctoral research and found that two uranium minerals were more active than uranium itself. Pierre Curie abandoned his own research in March 1898 to join her. They worked in a workshop at the École municipale de physique et de chimie industrielles, where Pierre taught.",
+    "In July 1898 they discovered a new element, about 400 times more active than uranium, and named it polonium after Poland, the country of Marie's birth. In December 1898, with the chemist Gustave Bémont, they found a second strongly radioactive substance: radium."
+  ],
+  "context": [
+    "Marie Curie, born Maria Skłodowska in Warsaw in 1867, shared half of the 1903 Nobel Prize in Physics with Pierre Curie for their research on radiation; Becquerel received the other half. She was awarded the Nobel Prize in Chemistry in 1911."
+  ],
+  "facts": [
+    {
+      "text": "Polonium was discovered in July 1898 and radium in December 1898.",
+      "s": [
+        2,
+        3
+      ]
+    },
+    {
+      "text": "The work took place in a workshop at the city's school of industrial physics and chemistry, where Pierre Curie taught.",
+      "s": [
+        2
+      ]
+    },
+    {
+      "text": "Becquerel's discovery of radioactivity in 1896 inspired the Curies' research; polonium was named after Marie Curie's native country.",
+      "s": [
+        1,
+        2
+      ]
+    },
+    {
+      "text": "Marie and Pierre Curie shared half of the 1903 Nobel Prize in Physics; Marie Curie received the 1911 Nobel Prize in Chemistry.",
+      "s": [
+        1
+      ]
+    }
+  ],
+  "uncertain": [],
+  "sources": [
+    {
+      "title": "Marie Curie – Biographical",
+      "publisher": "NobelPrize.org",
+      "url": "https://www.nobelprize.org/prizes/physics/1903/marie-curie/biographical/",
+      "supports": "Discovery of polonium and radium, working conditions, Nobel Prizes"
+    },
+    {
+      "title": "La découverte du radium et du polonium",
+      "publisher": "Musée Curie",
+      "url": "https://musee.curie.fr/blog/la-decouverte-du-radium-et-du-polonium",
+      "supports": "Workshop at the school, timeline of 1898, Bémont's role (in French)"
+    },
+    {
+      "title": "Marie Curie",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/biography/Marie-Curie",
+      "supports": "Discovery of polonium in summer 1898 and radium a few months later"
+    }
+  ],
+  "image": {
+    "file": "Marie Curie (1900) (cropped).jpg",
+    "alt": "Black-and-white portrait photograph of Marie Curie around 1900",
+    "caption": "Marie Curie, photographed around 1900."
+  },
+  "related": [
+    "discovery-of-penicillin",
+    "einstein-miracle-year-bern"
+  ]
+}

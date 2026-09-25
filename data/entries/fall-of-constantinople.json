@@ -1,0 +1,99 @@
+{
+  "slug": "fall-of-constantinople",
+  "title": "Fall of Constantinople",
+  "category": "battle",
+  "when": {
+    "label": "April – 29 May 1453",
+    "start": [
+      1453,
+      4
+    ],
+    "end": [
+      1453,
+      5,
+      29
+    ],
+    "note": "The Ottoman army assembled outside the city in April 1453; the city fell on 29 May."
+  },
+  "where": {
+    "name": "Land walls of Constantinople (Istanbul)",
+    "place": "istanbul",
+    "country": "Türkiye",
+    "lat": 41.018056,
+    "lon": 28.923333,
+    "precision": "area",
+    "wikidata": "Q89917",
+    "note": "Marker placed on the Theodosian land walls, which the Ottoman army breached."
+  },
+  "people": [
+    "Mehmed II",
+    "Constantine XI Palaiologos",
+    "Urban"
+  ],
+  "tags": [
+    "Byzantine Empire",
+    "Ottoman Empire",
+    "siege",
+    "cannon",
+    "walls"
+  ],
+  "summary": "Ottoman forces under Sultan Mehmed II besieged Constantinople by land and sea and broke through its ancient land walls, ending the Byzantine Empire.",
+  "description": [
+    "By the 1450s the Byzantine Empire had shrunk to Constantinople and the land immediately west of it, and the city's population had fallen to between 40,000 and 50,000. Mehmed II built a fortress on the Bosporus and commissioned the Hungarian gunsmith Urban to cast cannon powerful enough to bring down the city walls.",
+    "The Ottoman army assembled outside the city in April 1453. After a siege of several weeks, in which cannon kept up a constant bombardment, the Ottomans breached the land wall and took the city on 29 May 1453."
+  ],
+  "context": [
+    "The city's 5th-century land wall, built under Theodosius II, had been one of the leading references for military architecture. After the conquest Hagia Sophia was converted into a mosque."
+  ],
+  "facts": [
+    {
+      "text": "The city fell to Mehmed II on 29 May 1453.",
+      "s": [
+        1
+      ]
+    },
+    {
+      "text": "Urban's cannon were brought from Edirne to the outskirts of Constantinople by March 1453.",
+      "s": [
+        1
+      ]
+    },
+    {
+      "text": "The Theodosian land wall, begun in the 5th century, was about 6,650 metres long.",
+      "s": [
+        2
+      ]
+    }
+  ],
+  "uncertain": [
+    {
+      "text": "Estimates of the siege's length vary with the start date used; Britannica describes a siege of 55 days.",
+      "s": [
+        1
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Fall of Constantinople",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/event/Fall-of-Constantinople-1453",
+      "supports": "Date, background, siege and cannon"
+    },
+    {
+      "title": "Historic Areas of Istanbul",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/356",
+      "supports": "Theodosian land walls"
+    }
+  ],
+  "image": {
+    "file": "Le siège de Constantinople (1453) by Jean Le Tavernier after 1455.jpg",
+    "alt": "Medieval manuscript illumination showing an army and ships besieging a walled city",
+    "caption": "The siege of Constantinople in a 15th-century manuscript illumination attributed to Jean Le Tavernier."
+  },
+  "related": [
+    "hagia-sophia",
+    "fall-of-tenochtitlan"
+  ]
+}

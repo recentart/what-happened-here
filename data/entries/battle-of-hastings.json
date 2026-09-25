@@ -1,0 +1,98 @@
+{
+  "slug": "battle-of-hastings",
+  "title": "Battle of Hastings",
+  "category": "battle",
+  "featured": true,
+  "when": {
+    "label": "14 October 1066",
+    "start": [
+      1066,
+      10,
+      14
+    ]
+  },
+  "where": {
+    "name": "Battle Abbey and battlefield, Battle, East Sussex",
+    "country": "United Kingdom",
+    "lat": 50.915,
+    "lon": 0.485833,
+    "precision": "site",
+    "wikidata": "Q810981",
+    "note": "The traditional site of the battle, about 7–8 miles from Hastings; William the Conqueror founded Battle Abbey there."
+  },
+  "people": [
+    "William the Conqueror",
+    "Harold II"
+  ],
+  "tags": [
+    "Norman Conquest",
+    "medieval England",
+    "Bayeux Tapestry"
+  ],
+  "summary": "William, Duke of Normandy, defeated and killed King Harold II of England, beginning the Norman Conquest.",
+  "description": [
+    "Harold, Earl of Wessex, was crowned king the day after Edward the Confessor's death in January 1066. That autumn he defeated a Norwegian invasion at Stamford Bridge on 25 September, then learned that Duke William of Normandy had landed on the south coast.",
+    "The English army hurried south and on 14 October formed up on a ridge now partly occupied by Battle Abbey, with William's army on rising ground to the south. After a long fight the Normans gained the upper hand; Harold was killed and the English fled."
+  ],
+  "context": [
+    "William was crowned king of England on Christmas Day 1066 and ruled until his death in 1087. He founded Battle Abbey on the battlefield and insisted that the high altar of its church mark the spot where Harold had been killed."
+  ],
+  "facts": [
+    {
+      "text": "The battle was fought on 14 October 1066.",
+      "s": [
+        1,
+        2
+      ]
+    },
+    {
+      "text": "Harold's army had defeated Harald Hardrada and Tostig at Stamford Bridge on 25 September.",
+      "s": [
+        1
+      ]
+    },
+    {
+      "text": "William was crowned on Christmas Day 1066.",
+      "s": [
+        1
+      ]
+    }
+  ],
+  "uncertain": [
+    {
+      "text": "English Heritage discusses whether Battle Abbey really stands 'on the very spot' where Harold fell, and whether the battle was fought elsewhere; the traditional site is used here.",
+      "s": [
+        1
+      ]
+    },
+    {
+      "text": "The famous story that Harold was killed by an arrow in the eye comes from Norman accounts, as Britannica notes; it is not independently confirmed.",
+      "s": [
+        2
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "History of Battle Abbey and Battlefield",
+      "publisher": "English Heritage",
+      "url": "https://www.english-heritage.org.uk/visit/places/1066-battle-of-hastings-abbey-and-battlefield/history-and-stories/history/",
+      "supports": "Campaign, battle, abbey foundation, debate over the site"
+    },
+    {
+      "title": "Battle of Hastings",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/event/Battle-of-Hastings",
+      "supports": "Date, participants, succession dispute"
+    }
+  ],
+  "image": {
+    "file": "Bayeux Tapestry scene57 Harold death.jpg",
+    "alt": "Section of the embroidered Bayeux Tapestry showing soldiers fighting, with a figure beneath a Latin inscription about King Harold's death",
+    "caption": "Harold's death as shown on the Bayeux Tapestry, embroidered in the 1070s."
+  },
+  "related": [
+    "battle-of-waterloo",
+    "stonehenge"
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "slug": "eiffel-tower",
+  "title": "Eiffel Tower",
+  "category": "landmark",
+  "featured": true,
+  "when": {
+    "label": "26 January 1887 – 31 March 1889",
+    "start": [
+      1887,
+      1,
+      26
+    ],
+    "end": [
+      1889,
+      3,
+      31
+    ],
+    "note": "Construction dates as given by the tower's operator."
+  },
+  "where": {
+    "name": "Champ de Mars, Paris",
+    "place": "paris",
+    "country": "France",
+    "lat": 48.858296,
+    "lon": 2.294479,
+    "precision": "site",
+    "wikidata": "Q243"
+  },
+  "people": [
+    "Gustave Eiffel",
+    "Maurice Koechlin",
+    "Émile Nouguier",
+    "Stephen Sauvestre"
+  ],
+  "tags": [
+    "iron",
+    "World's Fair",
+    "Exposition Universelle",
+    "engineering"
+  ],
+  "summary": "The 300-metre iron tower was built in just over two years for the 1889 World's Fair in Paris, held on the centenary of the French Revolution.",
+  "description": [
+    "The tower was chosen from 107 proposals in a competition for the Exposition Universelle of 1889. The winning design came from the entrepreneur Gustave Eiffel, the engineers Maurice Koechlin and Émile Nouguier, and the architect Stephen Sauvestre.",
+    "Digging began on 26 January 1887, and the tower was finished on 31 March 1889 — 2 years, 2 months and 5 days later. Its iron parts were joined with some 2,500,000 rivets."
+  ],
+  "context": [
+    "Maurice Koechlin and Émile Nouguier, the two chief engineers in Eiffel's company, had the idea for a very tall tower in June 1884, and Eiffel registered a patent for the design that September. The 1889 fair marked the 100th anniversary of the French Revolution.",
+    "The banks of the Seine in Paris, including the Eiffel Tower, were inscribed as a UNESCO World Heritage Site in 1991."
+  ],
+  "facts": [
+    {
+      "text": "Works began on 26 January 1887 and the tower was completed on 31 March 1889.",
+      "s": [
+        1
+      ]
+    },
+    {
+      "text": "The design by Eiffel, Koechlin, Nouguier and Sauvestre was selected from 107 projects.",
+      "s": [
+        1
+      ]
+    },
+    {
+      "text": "About 2,500,000 rivets were used; between 150 and 300 workers were on the construction site.",
+      "s": [
+        1
+      ]
+    }
+  ],
+  "uncertain": [],
+  "sources": [
+    {
+      "title": "Eiffel Tower history, architecture, design & construction",
+      "publisher": "Société d'Exploitation de la Tour Eiffel (official site)",
+      "url": "https://www.toureiffel.paris/en/the-monument/history",
+      "supports": "Competition, designers, construction dates and figures"
+    },
+    {
+      "title": "Paris, Banks of the Seine",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/600",
+      "supports": "World Heritage status"
+    }
+  ],
+  "image": {
+    "file": "Tour Eiffel Wikimedia Commons.jpg",
+    "alt": "The Eiffel Tower photographed from the Champ de Mars against a blue sky",
+    "caption": "The Eiffel Tower seen from the Champ de Mars."
+  },
+  "related": [
+    "great-exhibition-1851",
+    "statue-of-liberty",
+    "storming-of-the-bastille"
+  ]
+}

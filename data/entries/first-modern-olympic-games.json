@@ -1,0 +1,82 @@
+{
+  "slug": "first-modern-olympic-games",
+  "title": "First modern Olympic Games",
+  "category": "culture",
+  "featured": true,
+  "when": {
+    "label": "6–15 April 1896",
+    "start": [
+      1896,
+      4,
+      6
+    ],
+    "end": [
+      1896,
+      4,
+      15
+    ]
+  },
+  "where": {
+    "name": "Panathenaic Stadium, Athens",
+    "place": "athens",
+    "country": "Greece",
+    "lat": 37.968333,
+    "lon": 23.741111,
+    "precision": "site",
+    "wikidata": "Q208811"
+  },
+  "people": [],
+  "tags": [
+    "Olympics",
+    "sport",
+    "athletics",
+    "Games of the I Olympiad"
+  ],
+  "summary": "The first Olympic Games of the modern era were held in Athens, with as many as 280 male athletes from 12 countries competing in 43 events.",
+  "description": [
+    "The Athens Games of 6–15 April 1896 were the first modern Olympic Games. As many as 280 athletes, all men, from 12 countries took part in 43 events covering athletics, cycling, swimming, gymnastics, weightlifting, wrestling, fencing, shooting and tennis.",
+    "Greek spectators attended throughout the ten days. Hungary sent the only national team; most foreign athletes were well-off college students or members of athletic clubs drawn by the novelty of the Games."
+  ],
+  "context": [
+    "The athletics events were held in the Panathenaic Stadium, originally built in 330 BCE. It had lain in disrepair before 1896 and was restored in white marble with the financial help of Georgios Averoff, a wealthy Egyptian Greek."
+  ],
+  "facts": [
+    {
+      "text": "The Games took place on 6–15 April 1896.",
+      "s": [
+        1
+      ]
+    },
+    {
+      "text": "As many as 280 athletes, all male, from 12 countries competed in 43 events.",
+      "s": [
+        1
+      ]
+    }
+  ],
+  "uncertain": [
+    {
+      "text": "Participant totals for 1896 are not exact; Britannica gives 'as many as 280' athletes.",
+      "s": [
+        1
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Athens 1896 Olympic Games",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/event/Athens-1896-Olympic-Games",
+      "supports": "Dates, athletes, events, spectators, Panathenaic Stadium"
+    }
+  ],
+  "image": {
+    "file": "GR-athen-panathinaiko-stadion.jpg",
+    "alt": "The white marble tiers of the horseshoe-shaped Panathenaic Stadium in Athens",
+    "caption": "The Panathenaic Stadium in Athens, 2011."
+  },
+  "related": [
+    "parthenon",
+    "woodstock-festival"
+  ]
+}

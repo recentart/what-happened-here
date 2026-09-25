@@ -1,0 +1,87 @@
+{
+  "slug": "great-pyramid-of-giza",
+  "title": "Great Pyramid of Giza",
+  "category": "landmark",
+  "featured": true,
+  "when": {
+    "label": "c. 2575–2465 BCE (4th dynasty)",
+    "start": [
+      -2575
+    ],
+    "end": [
+      -2465
+    ],
+    "approx": true,
+    "note": "The range shown is Britannica's dating of the 4th dynasty, during which all three Giza pyramids were built. The Great Pyramid was built for Khufu, the dynasty's second king; the exact years of his reign are uncertain."
+  },
+  "where": {
+    "name": "Giza plateau, near Cairo",
+    "country": "Egypt",
+    "lat": 29.97915,
+    "lon": 31.13422,
+    "precision": "site",
+    "wikidata": "Q37200"
+  },
+  "people": [
+    "Khufu"
+  ],
+  "tags": [
+    "Ancient Egypt",
+    "pyramid",
+    "Old Kingdom",
+    "Seven Wonders"
+  ],
+  "summary": "The largest of the three Giza pyramids was built for the pharaoh Khufu and is one of the Seven Wonders of the ancient world.",
+  "description": [
+    "The three pyramids at Giza stand on a rocky plateau on the west bank of the Nile. The northernmost and oldest, known as the Great Pyramid, was built for Khufu (Cheops in Greek), the second king of the 4th dynasty.",
+    "Each side of its base averages about 230 metres, and its original height was about 147 metres. Most of its outer casing of smooth white limestone has been stripped away, and it now stands about 138 metres high."
+  ],
+  "context": [
+    "The pyramids were included among the Seven Wonders of the World in ancient times. The pyramid fields from Giza to Dahshur, around the Old Kingdom capital of Memphis, were inscribed as a UNESCO World Heritage Site in 1979."
+  ],
+  "facts": [
+    {
+      "text": "The Great Pyramid was built for Khufu, second king of the 4th dynasty.",
+      "s": [
+        1
+      ]
+    },
+    {
+      "text": "Its base sides average about 230 metres; its original height was about 147 metres and it is now about 138 metres.",
+      "s": [
+        1
+      ]
+    }
+  ],
+  "uncertain": [
+    {
+      "text": "Ancient Egyptian chronology cannot be fixed to exact years. Britannica dates the 4th dynasty to c. 2575–c. 2465 BCE; other chronologies place Khufu's reign somewhat differently.",
+      "s": [
+        1
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Pyramids of Giza",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/topic/Pyramids-of-Giza",
+      "supports": "Dating, builder, dimensions"
+    },
+    {
+      "title": "Memphis and its Necropolis – the Pyramid Fields from Giza to Dahshur",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/86",
+      "supports": "Site description, World Heritage status"
+    }
+  ],
+  "image": {
+    "file": "Kheops-Pyramid.jpg",
+    "alt": "The Great Pyramid of Giza rising above the desert under a pale sky",
+    "caption": "The Great Pyramid of Khufu at Giza."
+  },
+  "related": [
+    "stonehenge",
+    "parthenon"
+  ]
+}

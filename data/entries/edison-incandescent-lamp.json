@@ -1,0 +1,89 @@
+{
+  "slug": "edison-incandescent-lamp",
+  "title": "Edison's electric light at Menlo Park",
+  "category": "invention",
+  "when": {
+    "label": "1879",
+    "start": [
+      1879
+    ],
+    "note": "The National Park Service dates the first public demonstration of Edison's lighting system to December 1879."
+  },
+  "where": {
+    "name": "Menlo Park, Edison, New Jersey",
+    "country": "United States",
+    "lat": 40.563056,
+    "lon": -74.339444,
+    "precision": "site",
+    "wikidata": "Q7787050",
+    "note": "Marker placed at the Thomas Edison Memorial Tower, which stands on the site of the Menlo Park laboratory."
+  },
+  "people": [
+    "Thomas Edison"
+  ],
+  "tags": [
+    "electric light",
+    "laboratory",
+    "electricity",
+    "invention"
+  ],
+  "summary": "At his Menlo Park laboratory, Thomas Edison developed a practical incandescent lamp and a complete electric lighting system, demonstrated to the public in December 1879.",
+  "description": [
+    "In 1876 Edison moved his staff to Menlo Park, New Jersey, and built a research and development laboratory — the first of its kind anywhere. The first great invention developed there was the tin-foil phonograph.",
+    "Electric lighting was not a new idea, but nothing practical for home use existed. After about a year and a half of work, a lamp with a filament of carbonised sewing thread burned for thirteen and a half hours. In December 1879 the Menlo Park laboratory complex was lit electrically for the first public demonstration."
+  ],
+  "context": [
+    "The National Park Service stresses that Edison's achievement was not just a lamp but an electric lighting system containing all the elements needed to make incandescent light practical, safe and economical. In September 1882 his first commercial power station went into operation on Pearl Street in lower Manhattan."
+  ],
+  "facts": [
+    {
+      "text": "Edison moved to Menlo Park in 1876.",
+      "s": [
+        1
+      ]
+    },
+    {
+      "text": "The first public demonstration of his lighting system took place in December 1879.",
+      "s": [
+        1
+      ]
+    },
+    {
+      "text": "The Pearl Street power station began operating in September 1882.",
+      "s": [
+        1
+      ]
+    }
+  ],
+  "uncertain": [
+    {
+      "text": "Edison did not invent the idea of the electric light; the National Park Service notes that a number of people had worked on electric lighting before him.",
+      "s": [
+        1
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Edison Biography",
+      "publisher": "US National Park Service, Thomas Edison National Historical Park",
+      "url": "https://www.nps.gov/edis/learn/historyculture/edison-biography.htm",
+      "supports": "Menlo Park, phonograph, lamp development, demonstration, Pearl Street"
+    },
+    {
+      "title": "Thomas Edison",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/biography/Thomas-Edison",
+      "supports": "Biography and inventions"
+    }
+  ],
+  "image": {
+    "file": "Thomas Edison2-crop.jpg",
+    "alt": "Black-and-white portrait photograph of Thomas Edison seated",
+    "caption": "Thomas Edison, around 1922."
+  },
+  "related": [
+    "wright-brothers-first-flight",
+    "marconi-transatlantic-signal"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  // Static-assets-only Worker. `npx wrangler deploy` runs the build first,
+  // then uploads everything in ./site (the build output directory).
+  "name": "what-happened-here",
+  "compatibility_date": "2026-09-01",
+  "build": {
+    "command": "node scripts/build.mjs"
+  },
+  "assets": {
+    "directory": "./site",
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "404-page"
+  }
+}

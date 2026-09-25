@@ -1,0 +1,84 @@
+{
+  "slug": "frida-kahlo-casa-azul",
+  "title": "Frida Kahlo's Casa Azul",
+  "category": "person",
+  "when": {
+    "label": "6 July 1907 – 13 July 1954",
+    "start": [
+      1907,
+      7,
+      6
+    ],
+    "end": [
+      1954,
+      7,
+      13
+    ],
+    "note": "Kahlo's life dates; she was born in Coyoacán and died at La Casa Azul."
+  },
+  "where": {
+    "name": "La Casa Azul (Museo Frida Kahlo), Coyoacán, Mexico City",
+    "country": "Mexico",
+    "lat": 19.355143,
+    "lon": -99.162525,
+    "precision": "site",
+    "wikidata": "Q2663377"
+  },
+  "people": [
+    "Frida Kahlo",
+    "Diego Rivera"
+  ],
+  "tags": [
+    "art",
+    "painting",
+    "self-portrait",
+    "Mexico",
+    "museum"
+  ],
+  "summary": "Frida Kahlo was born in Coyoacán, lived in her childhood home La Casa Azul with Diego Rivera, and died there; the house is now the Frida Kahlo Museum.",
+  "description": [
+    "Frida Kahlo was born in Coyoacán on 6 July 1907. She is best known for vividly coloured self-portraits dealing with identity, the body and death, shaped by lifelong health problems after a near-fatal bus accident, her Mexican and European heritage and her marriage to the muralist Diego Rivera.",
+    "After remarrying in 1940, Kahlo and Rivera moved into her childhood home, La Casa Azul ('The Blue House'), in Coyoacán. When she was too ill to travel she taught her painting classes there, and she died in the house on 13 July 1954."
+  ],
+  "context": [
+    "During her lifetime Kahlo was respected in artistic circles but struggled to make money from her work, which was often overshadowed by Rivera's murals. Her reputation grew steadily after her death. La Casa Azul is now the Museo Frida Kahlo."
+  ],
+  "facts": [
+    {
+      "text": "Kahlo was born in Coyoacán on 6 July 1907 and died there on 13 July 1954.",
+      "s": [
+        1
+      ]
+    },
+    {
+      "text": "She and Rivera moved into La Casa Azul, her childhood home, in 1940.",
+      "s": [
+        1
+      ]
+    }
+  ],
+  "uncertain": [],
+  "sources": [
+    {
+      "title": "Frida Kahlo",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/biography/Frida-Kahlo",
+      "supports": "Life dates, La Casa Azul, career"
+    },
+    {
+      "title": "Museo Frida Kahlo – La Casa Azul",
+      "publisher": "Museo Frida Kahlo",
+      "url": "https://www.museofridakahlo.org.mx/",
+      "supports": "Museum in the house"
+    }
+  ],
+  "image": {
+    "file": "La Casa Azul (The Blue House), better known as the Frida Kahlo Museum, located in the Coyoacán neighborhood of Mexico City.jpg",
+    "alt": "The cobalt-blue outer wall of La Casa Azul in Coyoacán",
+    "caption": "La Casa Azul, now the Frida Kahlo Museum, in Coyoacán."
+  },
+  "related": [
+    "leonardo-da-vinci-birthplace",
+    "fall-of-tenochtitlan"
+  ]
+}

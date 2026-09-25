@@ -1,0 +1,104 @@
+{
+  "slug": "fall-of-the-berlin-wall",
+  "title": "Fall of the Berlin Wall",
+  "category": "event",
+  "featured": true,
+  "when": {
+    "label": "9 November 1989",
+    "start": [
+      1989,
+      11,
+      9
+    ]
+  },
+  "where": {
+    "name": "Bornholmer Straße border crossing, Berlin",
+    "country": "Germany",
+    "lat": 52.554722,
+    "lon": 13.398611,
+    "precision": "site",
+    "wikidata": "Q895863",
+    "note": "Bornholmer Straße was the crossing where the barrier was first raised that night; the Wall itself encircled West Berlin."
+  },
+  "people": [
+    "Günter Schabowski"
+  ],
+  "tags": [
+    "Cold War",
+    "East Germany",
+    "German reunification",
+    "border"
+  ],
+  "summary": "After an announcement easing travel rules, East Berliners crowded the border crossings and the Wall that had divided the city since 1961 was opened.",
+  "description": [
+    "The Berlin Wall was first put up on the night of 12–13 August 1961 by East Germany to stop its citizens from reaching West Berlin; between 1949 and 1961 about 2.5 million East Germans had fled to the West. The original barbed wire and cinder blocks were later replaced by concrete walls.",
+    "On 9 November 1989, after an announcement by the East German politician Günter Schabowski about new travel rules, crowds of East Berliners gathered at the border crossings. At Bornholmer Straße the guards first let a few people through, then — as the crowds kept growing — raised the barrier; over the next hour around 20,000 people crossed the Bösebrücke bridge without being checked."
+  ],
+  "context": [
+    "The Bornholmer Straße checkpoint was the first to raise its barrier; the other border crossings in Berlin followed during the night. The Berlin Wall Foundation places that night within the peaceful revolution then under way in East Germany."
+  ],
+  "facts": [
+    {
+      "text": "The Wall was first erected on the night of 12–13 August 1961.",
+      "s": [
+        1
+      ]
+    },
+    {
+      "text": "About 2.5 million East Germans fled to the West between 1949 and 1961.",
+      "s": [
+        1
+      ]
+    },
+    {
+      "text": "Around 20,000 people crossed the Bösebrücke at Bornholmer Straße in the hour after the barrier was raised.",
+      "s": [
+        2
+      ]
+    }
+  ],
+  "uncertain": [
+    {
+      "text": "Counts of people killed at the Wall differ with how deaths are defined: the Chronicle of the Wall research project counts at least 140 people killed at the Wall or dying from causes directly related to the border regime between 1961 and 1989, while Britannica gives 191 killed while crossing.",
+      "s": [
+        1,
+        3
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Berlin Wall",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/topic/Berlin-Wall",
+      "supports": "Construction, opening, deaths"
+    },
+    {
+      "title": "Border Crossing Bornholmer Straße",
+      "publisher": "Berlin Wall Foundation (Stiftung Berliner Mauer)",
+      "url": "https://www.stiftung-berliner-mauer.de/en/node/1859",
+      "supports": "Events of 9 November 1989 at Bornholmer Straße"
+    },
+    {
+      "title": "Chronicle of the Wall",
+      "publisher": "Chronik der Mauer",
+      "url": "https://www.chronik-der-mauer.de/en/",
+      "supports": "Number of victims at the Wall"
+    },
+    {
+      "title": "Bornholmer Straße",
+      "publisher": "Berlin State Monuments Office (Berlin.de)",
+      "url": "https://www.berlin.de/landesdenkmalamt/denkmale/highlight-berliner-mauer/mauer-denkmale/bornholmer-strasse-649637.en.php",
+      "supports": "Site of the former crossing"
+    }
+  ],
+  "image": {
+    "file": "BerlinWall-BrandenburgGate.jpg",
+    "alt": "People standing on top of the Berlin Wall near the Brandenburg Gate at night",
+    "caption": "People on the Wall near the Brandenburg Gate, November 1989."
+  },
+  "related": [
+    "d-day-normandy-landings",
+    "chernobyl-disaster"
+  ]
+}

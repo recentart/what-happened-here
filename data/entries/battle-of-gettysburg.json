@@ -1,0 +1,96 @@
+{
+  "slug": "battle-of-gettysburg",
+  "title": "Battle of Gettysburg",
+  "category": "battle",
+  "when": {
+    "label": "1–3 July 1863",
+    "start": [
+      1863,
+      7,
+      1
+    ],
+    "end": [
+      1863,
+      7,
+      3
+    ]
+  },
+  "where": {
+    "name": "Gettysburg National Military Park, Pennsylvania",
+    "country": "United States",
+    "lat": 39.811389,
+    "lon": -77.225833,
+    "precision": "area",
+    "wikidata": "Q33132"
+  },
+  "people": [
+    "Robert E. Lee",
+    "George G. Meade",
+    "Abraham Lincoln"
+  ],
+  "tags": [
+    "American Civil War",
+    "Pickett's Charge",
+    "Gettysburg Address"
+  ],
+  "summary": "The bloodiest battle of the American Civil War ended Robert E. Lee's second invasion of the North and is generally regarded as the war's turning point.",
+  "description": [
+    "Seeking a victory north of the Mason–Dixon line that might force a negotiated end to the war, Confederate general Robert E. Lee led his army into Pennsylvania. The armies met at Gettysburg, about 35 miles (56 km) south-west of Harrisburg, and fought for three days.",
+    "On the final day, Confederate troops attacked the Union centre on Cemetery Ridge in what became known as Pickett's Charge; the few who reached their objective were repulsed. The battle was a crushing Confederate defeat."
+  ],
+  "context": [
+    "With more than 50,000 estimated casualties, Gettysburg was the bloodiest single battle of the conflict. Its defeat dashed Confederate hopes of becoming an independent nation."
+  ],
+  "facts": [
+    {
+      "text": "The battle was fought from 1 to 3 July 1863.",
+      "s": [
+        1,
+        2
+      ]
+    },
+    {
+      "text": "It ended in a Union victory and a Confederate retreat.",
+      "s": [
+        2
+      ]
+    }
+  ],
+  "uncertain": [
+    {
+      "text": "Casualty totals are estimates; the American Battlefield Trust gives 'more than 50,000'.",
+      "s": [
+        2
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Battle of Gettysburg",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/event/Battle-of-Gettysburg",
+      "supports": "Dates, location, Pickett's Charge, significance"
+    },
+    {
+      "title": "Gettysburg",
+      "publisher": "American Battlefield Trust",
+      "url": "https://www.battlefields.org/learn/civil-war/battles/gettysburg",
+      "supports": "Dates, casualties, Lee's objectives, outcome"
+    },
+    {
+      "title": "History & Culture – Gettysburg National Military Park",
+      "publisher": "US National Park Service",
+      "url": "https://www.nps.gov/gett/learn/historyculture/index.htm",
+      "supports": "Battlefield park"
+    }
+  ],
+  "image": {
+    "file": "Thure de Thulstrup - L. Prang and Co. - Battle of Gettysburg - Restoration by Adam Cuerden.jpg",
+    "alt": "Colour print showing Union soldiers defending a stone wall against a Confederate charge amid smoke",
+    "caption": "The Battle of Gettysburg in an 1887 chromolithograph by Thure de Thulstrup (L. Prang & Co.)."
+  },
+  "related": [
+    "assassination-of-abraham-lincoln",
+    "battle-of-waterloo"
+  ]
+}

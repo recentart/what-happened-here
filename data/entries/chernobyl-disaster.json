@@ -1,0 +1,90 @@
+{
+  "slug": "chernobyl-disaster",
+  "title": "Chernobyl nuclear disaster",
+  "category": "disaster",
+  "featured": true,
+  "when": {
+    "label": "26 April 1986",
+    "start": [
+      1986,
+      4,
+      26
+    ]
+  },
+  "where": {
+    "name": "Chernobyl Nuclear Power Plant, near Pripyat",
+    "country": "Ukraine",
+    "lat": 51.389553,
+    "lon": 30.099147,
+    "precision": "site",
+    "wikidata": "Q215419"
+  },
+  "people": [],
+  "tags": [
+    "nuclear power",
+    "radiation",
+    "Soviet Union",
+    "RBMK"
+  ],
+  "summary": "An explosion and fire destroyed reactor 4 at the Chernobyl nuclear plant, releasing large amounts of radioactive material in the most serious accident in the history of nuclear power.",
+  "description": [
+    "The Chernobyl power complex, about 110 km north of Kyiv, had four Soviet-designed RBMK-1000 reactors. On 26 April 1986 one of them was destroyed in an accident that released considerable amounts of radioactive material into the environment.",
+    "Two plant workers died on the night of the accident, and a further 28 people died within a few weeks from acute radiation syndrome. About 115,000 people were evacuated from the surrounding area in 1986, and about 220,000 more were relocated in later years."
+  ],
+  "context": [
+    "The new city of Pripyat, about 3 km from the reactor, had 49,000 inhabitants. By 2005 more than 6,000 cases of thyroid cancer had been reported in Belarus, Russia and Ukraine among people who were children or adolescents at the time of the accident. The World Nuclear Association states that a significant but uncertain fraction of these are likely due to radioactive iodine fallout."
+  ],
+  "facts": [
+    {
+      "text": "The accident occurred on 26 April 1986.",
+      "s": [
+        1,
+        2
+      ]
+    },
+    {
+      "text": "Two workers died on the night of the accident; 28 more died of acute radiation syndrome within weeks.",
+      "s": [
+        2
+      ]
+    },
+    {
+      "text": "About 115,000 people were evacuated in 1986 and about 220,000 relocated afterwards.",
+      "s": [
+        1
+      ]
+    }
+  ],
+  "uncertain": [
+    {
+      "text": "The long-term death toll from radiation exposure is disputed and cannot be measured directly. UNSCEAR and the World Nuclear Association note that the share of later illnesses caused by the accident is uncertain.",
+      "s": [
+        1,
+        2
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "The Chornobyl Accident",
+      "publisher": "United Nations Scientific Committee on the Effects of Atomic Radiation (UNSCEAR)",
+      "url": "https://www.unscear.org/unscear/en/areas-of-work/chernobyl.html",
+      "supports": "Date, deaths, evacuation, thyroid cancer"
+    },
+    {
+      "title": "Chernobyl Accident 1986",
+      "publisher": "World Nuclear Association",
+      "url": "https://world-nuclear.org/information-library/safety-and-security/safety-of-plants/chernobyl-accident",
+      "supports": "Reactor design, casualties, Pripyat, thyroid cancer attribution"
+    }
+  ],
+  "image": {
+    "file": "Chernobyl NPP Site Panorama with NSC Construction - June 2013.jpg",
+    "alt": "Panoramic view of the Chernobyl nuclear power plant buildings with the new confinement arch under construction",
+    "caption": "The Chernobyl plant in June 2013, with the New Safe Confinement under construction."
+  },
+  "related": [
+    "atomic-bombing-of-hiroshima",
+    "fall-of-the-berlin-wall"
+  ]
+}

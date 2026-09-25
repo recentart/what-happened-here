@@ -1,0 +1,101 @@
+{
+  "slug": "sinking-of-the-titanic",
+  "title": "Sinking of the Titanic",
+  "category": "disaster",
+  "featured": true,
+  "when": {
+    "label": "14–15 April 1912",
+    "start": [
+      1912,
+      4,
+      14
+    ],
+    "end": [
+      1912,
+      4,
+      15
+    ],
+    "note": "The ship struck the iceberg at 23:40 on 14 April and foundered at 02:20 on 15 April (ship's time)."
+  },
+  "where": {
+    "name": "North Atlantic Ocean, south-east of Newfoundland",
+    "country": "International waters",
+    "lat": 41.7325,
+    "lon": -49.946944,
+    "precision": "site",
+    "wikidata": "Q3018259",
+    "note": "Marker placed at the wreck site on the sea floor."
+  },
+  "people": [],
+  "tags": [
+    "shipwreck",
+    "White Star Line",
+    "maritime safety",
+    "iceberg"
+  ],
+  "summary": "On its maiden voyage from Southampton to New York, the RMS Titanic struck an iceberg and sank; about 1,500 of the roughly 2,200 people on board died.",
+  "description": [
+    "The Titanic left Southampton on 10 April 1912 on its maiden voyage to New York, calling at Cherbourg in France and Queenstown in Ireland. At 23:40 on 14 April it struck an iceberg in the North Atlantic, and it foundered at 02:20 on 15 April.",
+    "The ship carried only 20 lifeboats, with room for about 1,178 people, although about 2,200 passengers and crew were on board. Many lifeboats were launched below capacity, and approximately 1,500 people died, many in water of around −2°C."
+  ],
+  "context": [
+    "The ship's wireless operators sent distress calls; according to Royal Museums Greenwich, the switch from the code CQD to SOS was the first use of the new code by a passenger liner. The Cunard liner Carpathia received a distress signal at about 12:20 a.m. and headed for the scene, but it was some 58 nautical miles away."
+  ],
+  "facts": [
+    {
+      "text": "The collision with the iceberg happened at 23:40 on 14 April 1912.",
+      "s": [
+        1
+      ]
+    },
+    {
+      "text": "The ship foundered at 02:20 on 15 April 1912.",
+      "s": [
+        1
+      ]
+    },
+    {
+      "text": "There were 20 lifeboats, enough for about 1,178 people.",
+      "s": [
+        1
+      ]
+    },
+    {
+      "text": "Approximately 1,500 people died.",
+      "s": [
+        1
+      ]
+    }
+  ],
+  "uncertain": [
+    {
+      "text": "Exact numbers of people on board and of deaths vary between inquiry records and later research; figures here are the approximate ones given by Royal Museums Greenwich.",
+      "s": [
+        1
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "RMS Titanic facts",
+      "publisher": "Royal Museums Greenwich",
+      "url": "https://www.rmg.co.uk/stories/maritime-history/rms-titanic-facts",
+      "supports": "Timeline, lifeboats, passengers, deaths"
+    },
+    {
+      "title": "Titanic",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/topic/Titanic",
+      "supports": "Voyage, sinking and wreck"
+    }
+  ],
+  "image": {
+    "file": "Titanic wreck bow.jpg",
+    "alt": "Underwater photograph of the rusting bow of the Titanic on the sea floor",
+    "caption": "The bow of the Titanic wreck, photographed in 2004."
+  },
+  "related": [
+    "lisbon-earthquake-1755",
+    "marconi-transatlantic-signal"
+  ]
+}

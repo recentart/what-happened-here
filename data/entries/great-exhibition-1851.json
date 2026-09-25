@@ -1,0 +1,109 @@
+{
+  "slug": "great-exhibition-1851",
+  "title": "The Great Exhibition of 1851",
+  "category": "culture",
+  "featured": true,
+  "when": {
+    "label": "1 May – 11 October 1851",
+    "start": [
+      1851,
+      5,
+      1
+    ],
+    "end": [
+      1851,
+      10,
+      11
+    ],
+    "note": "Dates as given by the London Museum; the Royal Parks describe a six-month run from May to October 1851."
+  },
+  "where": {
+    "name": "The Crystal Palace, Hyde Park, London",
+    "place": "london",
+    "country": "United Kingdom",
+    "lat": 51.5032,
+    "lon": -0.1697,
+    "precision": "site",
+    "wikidata": "Q273095",
+    "note": "Marker placed on the exhibition site on the south side of Hyde Park."
+  },
+  "people": [
+    "Prince Albert",
+    "Henry Cole",
+    "Joseph Paxton",
+    "Queen Victoria"
+  ],
+  "tags": [
+    "world's fair",
+    "Crystal Palace",
+    "Victorian",
+    "industry",
+    "design"
+  ],
+  "summary": "The first international exhibition of industry and design, held in a vast glass-and-iron building in Hyde Park and visited by about six million people.",
+  "description": [
+    "Conceived by Prince Albert and the civil servant Henry Cole, the Great Exhibition brought together raw materials, manufactured goods, art and design from Britain and around the world. Around 14,000 exhibitors showed some 100,000 objects.",
+    "The exhibition was housed in a prefabricated glass building designed by Joseph Paxton and nicknamed the Crystal Palace by the magazine Punch. It was built in about nine months by more than 2,000 workers and was tall enough to enclose full-grown trees in the park."
+  ],
+  "context": [
+    "The exhibition was designed to celebrate modern industry and to present Britain as a leading industrial and imperial power. Prince Albert made sure that very cheap day tickets were available so that anybody could afford to go.",
+    "It made a profit of £186,000, which was spent on transforming an area of South Kensington into a new cultural quarter; part of the profits helped establish the Science Museum, the Victoria and Albert Museum and the Natural History Museum. In 1854 the Crystal Palace was moved to south London, where it stood until it was destroyed by fire in 1936."
+  ],
+  "facts": [
+    {
+      "text": "About six million people visited the exhibition.",
+      "s": [
+        1,
+        2
+      ]
+    },
+    {
+      "text": "Some 14,000 exhibitors displayed around 100,000 objects.",
+      "s": [
+        2
+      ]
+    },
+    {
+      "text": "The Crystal Palace was designed by Joseph Paxton and built in about nine months by more than 2,000 workers.",
+      "s": [
+        1
+      ]
+    },
+    {
+      "text": "The building was moved to south London and reopened in 1854; it burned down in 1936.",
+      "s": [
+        2
+      ]
+    }
+  ],
+  "uncertain": [],
+  "sources": [
+    {
+      "title": "What was the Great Exhibition of 1851?",
+      "publisher": "London Museum",
+      "url": "https://www.londonmuseum.org.uk/collections/london-stories/what-was-great-exhibition-1851/",
+      "supports": "Dates, organisers, building, visitor numbers, profit"
+    },
+    {
+      "title": "The Great Exhibition of 1851 in Hyde Park",
+      "publisher": "The Royal Parks",
+      "url": "https://www.royalparks.org.uk/read-watch-listen/great-exhibition-1851-hyde-park",
+      "supports": "Exhibitors, objects, visitors, ticket prices, museums founded from the profits, later history of the Crystal Palace"
+    },
+    {
+      "title": "The foundation of the V&A's collections: the Great Exhibition of 1851",
+      "publisher": "Victoria and Albert Museum",
+      "url": "https://www.vam.ac.uk/articles/the-great-exhibition-of-1851",
+      "supports": "The exhibition as the foundation of the V&A's collections"
+    }
+  ],
+  "image": {
+    "file": "Crystal Palace from the northeast from Dickinson's Comprehensive Pictures of the Great Exhibition of 1851. 1854.jpg",
+    "alt": "Colour print of the Crystal Palace, a long glass and iron exhibition hall with an arched transept, set among trees in Hyde Park",
+    "caption": "The Crystal Palace from the north-east, from Dickinson's Comprehensive Pictures of the Great Exhibition of 1851 (published 1854)."
+  },
+  "related": [
+    "great-fire-of-london",
+    "eiffel-tower"
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "slug": "stonewall-uprising",
+  "title": "Stonewall uprising",
+  "category": "event",
+  "when": {
+    "label": "28 June 1969 onward",
+    "start": [
+      1969,
+      6,
+      28
+    ],
+    "note": "The confrontations began in the early hours of 28 June 1969 and continued over the following nights."
+  },
+  "where": {
+    "name": "Stonewall Inn, Christopher Street, Greenwich Village, New York",
+    "place": "new-york-city",
+    "country": "United States",
+    "lat": 40.733833,
+    "lon": -74.002167,
+    "precision": "site",
+    "wikidata": "Q1261362"
+  },
+  "people": [],
+  "tags": [
+    "LGBTQ rights",
+    "civil rights",
+    "Pride",
+    "Greenwich Village"
+  ],
+  "summary": "A police raid on the Stonewall Inn, a gay bar in Greenwich Village, met with resistance that grew into days of protest and became a milestone for LGBTQ civil rights.",
+  "description": [
+    "In 1969 gay bars in New York were regularly raided by police. In the early hours of Saturday 28 June 1969, police entered the Stonewall Inn, arrested employees and took several patrons into custody.",
+    "This time the crowd outside did not disperse. People jeered at the police and threw bottles and debris; officers barricaded themselves inside the bar while some 400 people rioted, and the bar was set on fire before reinforcements dispersed the crowd."
+  ],
+  "context": [
+    "The uprising is widely seen as the moment an international gay rights movement was born, and Pride Month in June commemorates it. The site is protected as Stonewall National Monument, managed by the US National Park Service."
+  ],
+  "facts": [
+    {
+      "text": "The confrontations began in the early hours of 28 June 1969 after police raided the Stonewall Inn.",
+      "s": [
+        1,
+        2
+      ]
+    },
+    {
+      "text": "Britannica reports that some 400 people rioted as police barricaded themselves inside.",
+      "s": [
+        1
+      ]
+    }
+  ],
+  "uncertain": [
+    {
+      "text": "Accounts of who was present and how the resistance began differ; this entry reports only the outline given by Britannica and the National Park Service.",
+      "s": [
+        1,
+        2
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Stonewall riots",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/event/Stonewall-riots",
+      "supports": "Date, raid, crowd response, significance"
+    },
+    {
+      "title": "Stonewall National Monument",
+      "publisher": "US National Park Service",
+      "url": "https://www.nps.gov/ston/index.htm",
+      "supports": "Date and significance; national monument"
+    }
+  ],
+  "image": {
+    "file": "Stonewall Inn, April 2019.jpg",
+    "alt": "The brick front of the Stonewall Inn with its sign and rainbow flags",
+    "caption": "The Stonewall Inn in 2019."
+  },
+  "related": [
+    "march-on-washington",
+    "triangle-shirtwaist-factory-fire"
+  ]
+}

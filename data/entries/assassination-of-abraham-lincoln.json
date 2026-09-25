@@ -1,0 +1,105 @@
+{
+  "slug": "assassination-of-abraham-lincoln",
+  "title": "Assassination of Abraham Lincoln",
+  "category": "event",
+  "featured": true,
+  "when": {
+    "label": "14 April 1865",
+    "start": [
+      1865,
+      4,
+      14
+    ],
+    "end": [
+      1865,
+      4,
+      15
+    ],
+    "note": "Lincoln was shot on the evening of 14 April and died the next morning, 15 April 1865."
+  },
+  "where": {
+    "name": "Ford's Theatre, Washington, D.C.",
+    "place": "washington-dc",
+    "country": "United States",
+    "lat": 38.89663,
+    "lon": -77.0257,
+    "precision": "site",
+    "wikidata": "Q1416812"
+  },
+  "people": [
+    "Abraham Lincoln",
+    "John Wilkes Booth",
+    "Mary Todd Lincoln"
+  ],
+  "tags": [
+    "American Civil War",
+    "assassination",
+    "presidency",
+    "theatre"
+  ],
+  "summary": "Days after the Confederate army's surrender, President Abraham Lincoln was shot by the actor John Wilkes Booth while watching a play at Ford's Theatre.",
+  "description": [
+    "On the morning of 14 April 1865 — Good Friday — John Wilkes Booth, an actor who often performed at Ford's Theatre, learned that President Lincoln would attend that evening's performance of the comedy Our American Cousin.",
+    "Late in the evening, while the Lincolns and their guests watched from the Presidential Box, Booth entered the box and shot the president in the head. Doctors in the audience decided he should not be moved far, so he was carried across the street to the house of William Petersen, where he was pronounced dead at 7:22 a.m. on 15 April."
+  ],
+  "context": [
+    "The assassination came only days after General Robert E. Lee surrendered the Army of Northern Virginia to Union forces at Appomattox Court House. Ford's Theatre is now a National Historic Site, where the National Park Service works in partnership with the Ford's Theatre Society."
+  ],
+  "facts": [
+    {
+      "text": "Booth learned on 14 April 1865 that Lincoln would attend Our American Cousin at Ford's Theatre that night.",
+      "s": [
+        1
+      ]
+    },
+    {
+      "text": "At the time of the attack the Lincolns were in the Presidential Box with Major Henry Rathbone and Clara Harris.",
+      "s": [
+        1
+      ]
+    },
+    {
+      "text": "Lincoln was pronounced dead at 7:22 a.m. on 15 April 1865 in the Petersen house.",
+      "s": [
+        3
+      ]
+    }
+  ],
+  "uncertain": [
+    {
+      "text": "Secretary of War Edwin Stanton's famous words at Lincoln's deathbed are reported both as 'Now he belongs to the ages' and 'to the angels'; witnesses disagree.",
+      "s": [
+        3
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Lincoln's Assassination",
+      "publisher": "Ford's Theatre",
+      "url": "https://www.fords.org/lincolns-assassination/",
+      "supports": "Timeline of 14 April 1865, the Presidential Box"
+    },
+    {
+      "title": "Ford's Theatre National Historic Site",
+      "publisher": "US National Park Service",
+      "url": "https://www.nps.gov/foth/index.htm",
+      "supports": "Site history and protection"
+    },
+    {
+      "title": "Assassination of Abraham Lincoln",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/event/assassination-of-Abraham-Lincoln",
+      "supports": "Time and place of death, Appomattox surrender, Stanton's words"
+    }
+  ],
+  "image": {
+    "file": "USA-Ford Theatre0.jpg",
+    "alt": "The red-brick façade of Ford's Theatre on Tenth Street in Washington, D.C.",
+    "caption": "Ford's Theatre in Washington, D.C., photographed in 2013."
+  },
+  "related": [
+    "battle-of-gettysburg",
+    "march-on-washington"
+  ]
+}

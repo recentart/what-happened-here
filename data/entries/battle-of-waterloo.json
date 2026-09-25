@@ -1,0 +1,87 @@
+{
+  "slug": "battle-of-waterloo",
+  "title": "Battle of Waterloo",
+  "category": "battle",
+  "when": {
+    "label": "18 June 1815",
+    "start": [
+      1815,
+      6,
+      18
+    ]
+  },
+  "where": {
+    "name": "Lion's Mound, Braine-l'Alleud, near Waterloo",
+    "country": "Belgium",
+    "lat": 50.678106,
+    "lon": 4.405389,
+    "precision": "area",
+    "wikidata": "Q31985",
+    "note": "Marker placed at the Lion's Mound memorial on the battlefield, about 5 km south of Waterloo village."
+  },
+  "people": [
+    "Napoleon Bonaparte",
+    "Duke of Wellington",
+    "Gebhard Leberecht von Blücher"
+  ],
+  "tags": [
+    "Napoleonic Wars",
+    "Hundred Days",
+    "Wellington",
+    "Blücher"
+  ],
+  "summary": "Napoleon's final defeat, at the hands of the Duke of Wellington's allied army and the Prussians under Blücher, ended more than two decades of war.",
+  "description": [
+    "Napoleon escaped from exile in March 1815 and returned to power. Hoping to defeat his enemies separately, he crossed into what is now Belgium on 15 June and beat the Prussians at Ligny the next day, while Wellington held the crossroads at Quatre Bras.",
+    "On 18 June, about 5 km south of the village of Waterloo, Napoleon's 72,000 troops faced Wellington's allied army of 68,000, which held a ridge south of Mont-Saint-Jean with the promise of Prussian reinforcement under Blücher. The battle ended in Napoleon's final defeat."
+  ],
+  "context": [
+    "The National Army Museum describes Waterloo as the decisive battle of its age: it ended 23 years of war, ended French attempts to dominate Europe and destroyed Napoleon's imperial power for good."
+  ],
+  "facts": [
+    {
+      "text": "The battle was fought on 18 June 1815, 3 miles (5 km) south of Waterloo village.",
+      "s": [
+        1,
+        2
+      ]
+    },
+    {
+      "text": "Britannica gives Napoleon 72,000 troops against Wellington's allied army of 68,000.",
+      "s": [
+        2
+      ]
+    }
+  ],
+  "uncertain": [
+    {
+      "text": "Troop numbers and casualty figures for Napoleonic battles are estimates and vary between sources.",
+      "s": [
+        2
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Battle of Waterloo",
+      "publisher": "National Army Museum",
+      "url": "https://www.nam.ac.uk/explore/battle-waterloo",
+      "supports": "Date, campaign, significance"
+    },
+    {
+      "title": "Battle of Waterloo",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/event/Battle-of-Waterloo",
+      "supports": "Location, troop numbers, preceding battles"
+    }
+  ],
+  "image": {
+    "file": "Belgique - Butte du Lion - 04.jpg",
+    "alt": "A tall grassy conical mound topped by a lion statue on a plinth, rising over fields",
+    "caption": "The Lion's Mound memorial on the Waterloo battlefield."
+  },
+  "related": [
+    "battle-of-hastings",
+    "battle-of-gettysburg"
+  ]
+}

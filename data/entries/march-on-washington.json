@@ -1,0 +1,96 @@
+{
+  "slug": "march-on-washington",
+  "title": "March on Washington for Jobs and Freedom",
+  "category": "event",
+  "featured": true,
+  "when": {
+    "label": "28 August 1963",
+    "start": [
+      1963,
+      8,
+      28
+    ]
+  },
+  "where": {
+    "name": "Lincoln Memorial, National Mall, Washington, D.C.",
+    "place": "washington-dc",
+    "country": "United States",
+    "lat": 38.889278,
+    "lon": -77.050139,
+    "precision": "site",
+    "wikidata": "Q213559"
+  },
+  "people": [
+    "Martin Luther King Jr.",
+    "A. Philip Randolph",
+    "Bayard Rustin"
+  ],
+  "tags": [
+    "civil rights",
+    "protest",
+    "I Have a Dream",
+    "National Mall"
+  ],
+  "summary": "An estimated 250,000 people gathered at the Lincoln Memorial for civil rights and economic justice; the day's highlight was Martin Luther King Jr.'s 'I Have a Dream' speech.",
+  "description": [
+    "The march was sponsored by a coalition of student, civil rights and labour organisations. Its original idea came from A. Philip Randolph, a labour organiser who had first proposed a march on the capital in the 1940s; Bayard Rustin was a central organiser.",
+    "On 28 August 1963, an estimated 250,000 people travelled to Washington by plane, train, car and bus. The official programme listed speeches and performances at the Lincoln Memorial, culminating in King's 'I Have a Dream' speech."
+  ],
+  "context": [
+    "It was the largest gathering for civil rights of its time. Randolph had twice planned marches on Washington in the 1940s, calling them off after presidents Franklin Roosevelt and Harry Truman issued executive orders against discrimination in the defence industry (1941) and in the armed forces (1948)."
+  ],
+  "facts": [
+    {
+      "text": "An estimated 250,000 people attended.",
+      "s": [
+        1,
+        2
+      ]
+    },
+    {
+      "text": "The original idea came from A. Philip Randolph.",
+      "s": [
+        1
+      ]
+    },
+    {
+      "text": "The official programme is held in the Bayard Rustin Papers at the John F. Kennedy Library (National Archives).",
+      "s": [
+        2
+      ]
+    }
+  ],
+  "uncertain": [
+    {
+      "text": "Crowd sizes for large demonstrations are estimates; the figure of 250,000 is the one used by the National Park Service and the National Archives.",
+      "s": [
+        1,
+        2
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "March on Washington for Jobs and Freedom",
+      "publisher": "US National Park Service",
+      "url": "https://www.nps.gov/articles/march-on-washington.htm",
+      "supports": "Date, attendance, organisers, background"
+    },
+    {
+      "title": "Official Program for the March on Washington (1963)",
+      "publisher": "US National Archives",
+      "url": "https://www.archives.gov/milestone-documents/official-program-for-the-march-on-washington",
+      "supports": "Programme at the Lincoln Memorial, attendance, King's speech"
+    }
+  ],
+  "image": {
+    "file": "March on Washington for Jobs and Freedom, Martin Luther King, Jr. and Joachim Prinz 1963.jpg",
+    "alt": "Black-and-white photograph of Martin Luther King Jr. and other leaders walking arm in arm at the front of the march",
+    "caption": "Martin Luther King Jr. and Rabbi Joachim Prinz among the march leaders, 28 August 1963."
+  },
+  "related": [
+    "assassination-of-abraham-lincoln",
+    "salt-march",
+    "stonewall-uprising"
+  ]
+}

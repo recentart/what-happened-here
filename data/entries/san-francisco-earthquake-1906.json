@@ -1,0 +1,77 @@
+{
+  "slug": "san-francisco-earthquake-1906",
+  "title": "San Francisco earthquake and fire",
+  "category": "disaster",
+  "when": {
+    "label": "18 April 1906",
+    "start": [
+      1906,
+      4,
+      18
+    ],
+    "note": "The main shock struck shortly after 5:12 a.m. local time."
+  },
+  "where": {
+    "name": "San Francisco, California",
+    "country": "United States",
+    "lat": 37.775,
+    "lon": -122.419444,
+    "precision": "city",
+    "wikidata": "Q62",
+    "note": "Marker placed at the city's Wikidata coordinates. USGS places the epicentre near San Francisco; the rupture ran for 296 miles along the San Andreas Fault."
+  },
+  "people": [],
+  "tags": [
+    "earthquake",
+    "fire",
+    "San Andreas Fault",
+    "California"
+  ],
+  "summary": "A great earthquake on the San Andreas Fault shook northern California before dawn, and the fires that followed destroyed much of San Francisco.",
+  "description": [
+    "At about 5:12 a.m. on 18 April 1906 a foreshock was felt across the San Francisco Bay area, and the great earthquake broke loose some 20 to 25 seconds later, with its epicentre near San Francisco. It ruptured the northernmost 296 miles (477 km) of the San Andreas Fault.",
+    "The earthquake is best remembered for the fire it set off in San Francisco, but shaking damage was equally severe in many other places along the rupture."
+  ],
+  "context": [
+    "USGS notes that the earthquake's importance today comes more from the scientific knowledge derived from it than from its size: its long rupture and large horizontal displacements confounded geologists of the time. The Lawson report of 1908 remains the authoritative study of the earthquake."
+  ],
+  "facts": [
+    {
+      "text": "The main shock struck about 20 to 25 seconds after a foreshock at almost precisely 5:12 a.m.",
+      "s": [
+        1
+      ]
+    },
+    {
+      "text": "The rupture extended 296 miles (477 km) along the San Andreas Fault.",
+      "s": [
+        1
+      ]
+    }
+  ],
+  "uncertain": [
+    {
+      "text": "The death toll is not precisely known. USGS notes that the frequently quoted figure of 700 deaths is now believed to underestimate the total by a factor of 3 or 4.",
+      "s": [
+        1
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "The Great 1906 San Francisco Earthquake",
+      "publisher": "US Geological Survey",
+      "url": "https://earthquake.usgs.gov/earthquakes/events/1906calif/18april/",
+      "supports": "Time, rupture, epicentre, damage, death toll uncertainty"
+    }
+  ],
+  "image": {
+    "file": "Post-and-Grant-Avenue-Look.jpg",
+    "alt": "Black-and-white photograph of a San Francisco street with ruined buildings and smoke after the 1906 earthquake",
+    "caption": "Post Street and Grant Avenue, San Francisco, April 1906."
+  },
+  "related": [
+    "lisbon-earthquake-1755",
+    "chernobyl-disaster"
+  ]
+}

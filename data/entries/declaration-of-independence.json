@@ -1,0 +1,100 @@
+{
+  "slug": "declaration-of-independence",
+  "title": "Declaration of Independence adopted",
+  "category": "event",
+  "featured": true,
+  "when": {
+    "label": "4 July 1776",
+    "start": [
+      1776,
+      7,
+      4
+    ],
+    "note": "The Declaration was officially adopted on 4 July 1776 after revision continued through 3 July and into the morning of 4 July. The engrossed copy was signed on 2 August 1776, according to the journal of Congress."
+  },
+  "where": {
+    "name": "Independence Hall (Pennsylvania State House), Philadelphia",
+    "country": "United States",
+    "lat": 39.948889,
+    "lon": -75.15,
+    "precision": "site",
+    "wikidata": "Q390028"
+  },
+  "people": [
+    "Thomas Jefferson",
+    "John Adams",
+    "Benjamin Franklin",
+    "Richard Henry Lee"
+  ],
+  "tags": [
+    "American Revolution",
+    "Continental Congress",
+    "independence",
+    "founding documents"
+  ],
+  "summary": "Meeting in the Pennsylvania State House, the Second Continental Congress adopted the Declaration of Independence, announcing the separation of thirteen American colonies from Britain.",
+  "description": [
+    "On 7 June 1776, in the Pennsylvania State House, Richard Henry Lee of Virginia read a resolution declaring that the colonies 'are, and of right ought to be, free and independent States'. Congress appointed a committee of five — John Adams, Roger Sherman, Benjamin Franklin, Robert R. Livingston and Thomas Jefferson — to draft a declaration, and Jefferson wrote the first draft.",
+    "Congress debated and revised Jefferson's draft through 3 July and into the late morning of 4 July 1776, when the Declaration was officially adopted. Printed copies by John Dunlap were produced that night."
+  ],
+  "context": [
+    "Eleven years later, in the same room, delegates to the Constitutional Convention drafted and signed the United States Constitution. Independence Hall, begun in 1732 as the Pennsylvania State House, was inscribed as a UNESCO World Heritage Site in 1979."
+  ],
+  "facts": [
+    {
+      "text": "Richard Henry Lee presented his independence resolution on 7 June 1776 in the Pennsylvania State House.",
+      "s": [
+        1
+      ]
+    },
+    {
+      "text": "The drafting committee was Adams, Sherman, Franklin, Livingston and Jefferson; Jefferson wrote the draft.",
+      "s": [
+        1
+      ]
+    },
+    {
+      "text": "Construction of the State House began in 1732.",
+      "s": [
+        2
+      ]
+    }
+  ],
+  "uncertain": [
+    {
+      "text": "The document is dated 4 July, but signing was not a single event on that day: the National Archives notes that the engrossed copy was signed on 2 August 1776 and calls the idea that all delegates signed on 4 July a widely held misconception.",
+      "s": [
+        1
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "The Declaration of Independence: A History",
+      "publisher": "US National Archives",
+      "url": "https://www.archives.gov/founding-docs/declaration-history",
+      "supports": "Lee Resolution, drafting committee, votes, adoption and signing dates"
+    },
+    {
+      "title": "Independence Hall",
+      "publisher": "US National Park Service",
+      "url": "https://www.nps.gov/inde/learn/historyculture/places-independencehall.htm",
+      "supports": "Building history, events of 1776 and 1787"
+    },
+    {
+      "title": "Independence Hall",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/78",
+      "supports": "World Heritage status"
+    }
+  ],
+  "image": {
+    "file": "United States Declaration of Independence.jpg",
+    "alt": "Facsimile of the handwritten Declaration of Independence with signatures at the bottom",
+    "caption": "The Declaration of Independence, from William Stone's 1823 facsimile engraving."
+  },
+  "related": [
+    "storming-of-the-bastille",
+    "statue-of-liberty"
+  ]
+}

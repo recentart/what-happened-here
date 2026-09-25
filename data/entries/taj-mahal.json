@@ -1,0 +1,80 @@
+{
+  "slug": "taj-mahal",
+  "title": "Taj Mahal",
+  "category": "landmark",
+  "when": {
+    "label": "1632–1653",
+    "start": [
+      1632
+    ],
+    "end": [
+      1653
+    ],
+    "note": "UNESCO gives construction of the mausoleum as 1632–1648, with the mosque, guest house, gateway and outer courtyard completed by 1653. Elsewhere on the same page it gives 1631–1648."
+  },
+  "where": {
+    "name": "Agra, Uttar Pradesh",
+    "country": "India",
+    "lat": 27.175,
+    "lon": 78.041944,
+    "precision": "site",
+    "wikidata": "Q9141"
+  },
+  "people": [
+    "Shah Jahan",
+    "Mumtaz Mahal"
+  ],
+  "tags": [
+    "Mughal Empire",
+    "mausoleum",
+    "marble",
+    "garden"
+  ],
+  "summary": "The Mughal emperor Shah Jahan built this white marble mausoleum on the Yamuna River in memory of his wife Mumtaz Mahal.",
+  "description": [
+    "The Taj Mahal stands on the right bank of the Yamuna River in a Mughal garden of nearly 17 hectares. It was built by order of Shah Jahan in memory of his wife Mumtaz Mahal. Construction began in 1632 and the mausoleum was completed in 1648; the mosque, guest house, main gateway and outer courtyard were finished by 1653.",
+    "The tomb is placed at one end of a four-part garden rather than in its centre, which gives depth to the view. Inside, the cenotaphs of Mumtaz Mahal and Shah Jahan are surrounded by an octagonal marble lattice screen."
+  ],
+  "context": [
+    "Historical and Quranic inscriptions in Arabic script on the building have helped establish its chronology. The Taj Mahal was inscribed as a UNESCO World Heritage Site in 1983."
+  ],
+  "facts": [
+    {
+      "text": "Construction started in 1632 and the mausoleum was completed in 1648; the surrounding buildings were completed in 1653.",
+      "s": [
+        1
+      ]
+    },
+    {
+      "text": "It houses the cenotaphs of both Mumtaz Mahal and Shah Jahan.",
+      "s": [
+        1
+      ]
+    }
+  ],
+  "uncertain": [
+    {
+      "text": "The start date is given as both 1631 and 1632 on UNESCO's own page.",
+      "s": [
+        1
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Taj Mahal",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/252",
+      "supports": "Dates, patron, layout, inscriptions, World Heritage status"
+    }
+  ],
+  "image": {
+    "file": "Taj Mahal (Edited).jpeg",
+    "alt": "The white marble Taj Mahal with its dome and four minarets, reflected in a long pool",
+    "caption": "The Taj Mahal, Agra."
+  },
+  "related": [
+    "hagia-sophia",
+    "salt-march"
+  ]
+}

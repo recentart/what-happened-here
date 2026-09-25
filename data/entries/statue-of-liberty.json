@@ -1,0 +1,92 @@
+{
+  "slug": "statue-of-liberty",
+  "title": "Statue of Liberty dedicated",
+  "category": "landmark",
+  "featured": true,
+  "when": {
+    "label": "28 October 1886",
+    "start": [
+      1886,
+      10,
+      28
+    ],
+    "note": "Date of the dedication by President Grover Cleveland. Work on the statue began in France in 1875."
+  },
+  "where": {
+    "name": "Liberty Island, New York Harbor",
+    "place": "new-york-city",
+    "country": "United States",
+    "lat": 40.689209,
+    "lon": -74.044425,
+    "precision": "site",
+    "wikidata": "Q9202"
+  },
+  "people": [
+    "Frédéric-Auguste Bartholdi",
+    "Gustave Eiffel",
+    "Édouard de Laboulaye",
+    "Richard Morris Hunt",
+    "Grover Cleveland"
+  ],
+  "tags": [
+    "monument",
+    "France",
+    "United States",
+    "copper",
+    "immigration"
+  ],
+  "summary": "A gift from the people of France, the copper statue designed by Frédéric-Auguste Bartholdi was dedicated at the entrance to New York Harbor in 1886.",
+  "description": [
+    "The French historian Édouard de Laboulaye proposed the statue in 1865 as a monument to friendship between the peoples of France and the United States. Funded by contributions from the French public, it was built in France from 1875 under the sculptor Frédéric-Auguste Bartholdi.",
+    "The statue's copper sheets were hammered into shape by hand and assembled over a framework of four giant steel supports designed by Eugène-Emmanuel Viollet-le-Duc and Gustave Eiffel. It was presented in Paris on 4 July 1884, shipped to New York in 1885, and mounted on a pedestal designed by Richard Morris Hunt inside the walls of Fort Wood on Bedloe's Island. President Grover Cleveland dedicated it on 28 October 1886."
+  ],
+  "context": [
+    "The statue holds a tablet bearing the date of the Declaration of Independence, 4 July 1776, and was a gift marking the centenary of American independence. It has welcomed millions of immigrants arriving by sea, and it was inscribed as a UNESCO World Heritage Site in 1984."
+  ],
+  "facts": [
+    {
+      "text": "Laboulaye proposed the statue in 1865; work began in France in 1875 under Bartholdi.",
+      "s": [
+        1
+      ]
+    },
+    {
+      "text": "The supporting framework was designed by Viollet-le-Duc and Eiffel; the pedestal by Richard Morris Hunt.",
+      "s": [
+        1,
+        2
+      ]
+    },
+    {
+      "text": "President Grover Cleveland dedicated the statue on 28 October 1886.",
+      "s": [
+        1
+      ]
+    }
+  ],
+  "uncertain": [],
+  "sources": [
+    {
+      "title": "Statue of Liberty",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/topic/Statue-of-Liberty",
+      "supports": "Origins, construction, dedication date"
+    },
+    {
+      "title": "Statue of Liberty",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/307",
+      "supports": "Design, symbolism, World Heritage status"
+    }
+  ],
+  "image": {
+    "file": "Statue of Liberty and a sightseeing boat, Liberty Island, New York.jpg",
+    "alt": "The green copper Statue of Liberty on its stone pedestal, with a boat on the water in front",
+    "caption": "The Statue of Liberty on Liberty Island."
+  },
+  "related": [
+    "eiffel-tower",
+    "declaration-of-independence",
+    "stonewall-uprising"
+  ]
+}

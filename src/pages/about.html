@@ -1,0 +1,32 @@
+<div class="wrap narrow about">
+  {{crumbs}}
+  <header class="entry-head">
+    <h1>About What Happened Here?</h1>
+    <p class="lede">An interactive map for exploring documented history: events, landmarks, people, disasters, battles, discoveries and cultural moments, tied to the places where they happened.</p>
+  </header>
+  <div class="prose">
+    <h2>What this is — and isn't</h2>
+    <p>This first version holds {{count}} carefully researched entries rather than an attempt to cover the whole world. The aim is a reference you can trust and come back to, not a large number of thin pages. More entries will be added over time using the same standards.</p>
+
+    <h2>How entries are researched</h2>
+    <p>Each entry is written from sources published by museums, libraries, archives, universities, government heritage bodies and established reference works such as Encyclopaedia Britannica, UNESCO, the US National Park Service and the US National Archives. The text is an original summary; nothing is copied at length from the sources, and there are no invented quotations.</p>
+    <p>On every entry page, the <strong>Documented facts</strong> list links each statement to the numbered source that supports it. The pages of those sources were checked when the entry was written, and every source is listed with a note of what it was used for. You can see all of them on the <a href="/sources">sources page</a>.</p>
+
+    <h2>Uncertainty is shown, not hidden</h2>
+    <p>History is full of estimates and disagreements. Where sources give a range, the entry shows the range; where only a year is known, no day or month is added. Approximate dates carry an “approximate” label. Points that are disputed or estimated — death tolls, contested dates, alternative locations, questions of credit — appear in a separate <strong>Uncertain or debated</strong> section, with the sources that discuss them.</p>
+    <p>Dates follow the sources. Some older dates are in the calendar in use at the time, which the entry notes when it matters (for example, the Great Fire of London is dated in the Julian calendar used in England in 1666). Years before the common era are written as BCE.</p>
+
+    <h2>Locations and the map</h2>
+    <p>Coordinates are taken from <a href="https://www.wikidata.org">Wikidata</a> for the specific site where possible — a building, square or monument — and every entry links to the Wikidata item used. Each location says whether the marker shows the exact site, a general area or a whole city. Where the exact spot is unknown or debated, the page says so.</p>
+    <p>The map uses <a href="https://maplibre.org">MapLibre GL JS</a> with free vector tiles from <a href="https://openfreemap.org">OpenFreeMap</a>, based on <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> data. No API key or paid service is involved.</p>
+
+    <h2>Images</h2>
+    <p>Images come from <a href="https://commons.wikimedia.org">Wikimedia Commons</a> and are used only when they are in the public domain or under a Creative Commons licence that permits reuse (CC0, CC BY or CC BY-SA). The author, licence and a link to the original file are shown under every image. Historical paintings and prints are labelled as such, since they are later interpretations rather than photographs of the event.</p>
+
+    <h2>Privacy</h2>
+    <p>This site has no accounts, cookies, analytics or tracking. The “Near me” button uses your browser's location only when you press it, and the position never leaves your device. Map tiles are loaded from OpenFreeMap and images from Wikimedia's servers, which receive ordinary web requests when those are displayed.</p>
+
+    <h2>Corrections and contributions</h2>
+    <p>If you spot an error, please open an issue on <a href="{{repo}}">GitHub</a> with a link to a reliable source. The data is stored as plain JSON files — one per entry — in the same repository, and every change is checked by automated validation before the site is built.</p>
+  </div>
+</div>

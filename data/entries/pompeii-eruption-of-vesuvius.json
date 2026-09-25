@@ -1,0 +1,105 @@
+{
+  "slug": "pompeii-eruption-of-vesuvius",
+  "title": "Eruption of Vesuvius buries Pompeii",
+  "category": "disaster",
+  "featured": true,
+  "when": {
+    "label": "79 CE (traditionally 24–25 August)",
+    "start": [
+      79,
+      8,
+      24
+    ],
+    "end": [
+      79,
+      8,
+      25
+    ],
+    "approx": true,
+    "note": "The traditional dates come from Pliny the Younger's letters. Some scholars believe the eruption happened later in the year, possibly in October or November."
+  },
+  "where": {
+    "name": "Pompeii, near Naples",
+    "country": "Italy",
+    "lat": 40.750556,
+    "lon": 14.489722,
+    "precision": "site",
+    "wikidata": "Q43332"
+  },
+  "people": [
+    "Pliny the Elder",
+    "Pliny the Younger"
+  ],
+  "tags": [
+    "Roman Empire",
+    "volcano",
+    "archaeology",
+    "Mount Vesuvius"
+  ],
+  "summary": "A huge eruption of Mount Vesuvius buried the Roman city of Pompeii under metres of ash and pumice, preserving it for 17 centuries.",
+  "description": [
+    "According to the traditional date, just after midday on 24 August 79 CE, ash, pumice and other debris began falling on Pompeii, quickly covering the city to a depth of more than 3 metres and collapsing many roofs. On the morning of 25 August, surges of scorching gas and volcanic material reached the city walls and killed residents who had not escaped.",
+    "Further flows and ash falls buried Pompeii under 6 to 7 metres of pumice and ash. The city's remains were unearthed from the 1700s onward."
+  ],
+  "context": [
+    "A vivid eyewitness account survives in two letters by Pliny the Younger to the historian Tacitus, describing the death of his uncle Pliny the Elder, commander of the Roman fleet at Misenum, who died at Stabiae while trying to help. The archaeological areas of Pompeii, Herculaneum and Torre Annunziata were inscribed as a UNESCO World Heritage Site in 1997."
+  ],
+  "facts": [
+    {
+      "text": "Pompeii was buried under 6 to 7 metres of pumice and ash.",
+      "s": [
+        1
+      ]
+    },
+    {
+      "text": "Pliny the Younger's letters to Tacitus are the main eyewitness account.",
+      "s": [
+        1
+      ]
+    },
+    {
+      "text": "Excavation of the city began in the 1700s.",
+      "s": [
+        1
+      ]
+    }
+  ],
+  "uncertain": [
+    {
+      "text": "The date is disputed. The 24 August date comes from the manuscript tradition of Pliny's letters, but some scholars believe the eruption occurred later in the year, possibly in October or November.",
+      "s": [
+        1
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Pompeii",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/place/Pompeii",
+      "supports": "Eruption sequence, dates and date debate, burial depth, excavation"
+    },
+    {
+      "title": "Archaeological Areas of Pompei, Herculaneum and Torre Annunziata",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/829",
+      "supports": "World Heritage status"
+    },
+    {
+      "title": "Pompeii Archaeological Park",
+      "publisher": "Parco Archeologico di Pompei (Italian Ministry of Culture)",
+      "url": "https://pompeiisites.org/en/",
+      "supports": "Official site and current research"
+    }
+  ],
+  "image": {
+    "file": "Pompeii (4873744179).jpg",
+    "alt": "Excavated streets and ruined buildings of Pompeii",
+    "caption": "Ruins of Pompeii, 2010."
+  },
+  "related": [
+    "colosseum",
+    "lisbon-earthquake-1755",
+    "assassination-of-julius-caesar"
+  ]
+}

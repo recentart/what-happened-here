@@ -1,0 +1,100 @@
+{
+  "slug": "discovery-of-penicillin",
+  "title": "Alexander Fleming observes penicillin",
+  "category": "invention",
+  "when": {
+    "label": "September 1928",
+    "start": [
+      1928,
+      9
+    ],
+    "note": "The American Chemical Society dates Fleming's observation to his return from holiday on 3 September 1928."
+  },
+  "where": {
+    "name": "St Mary's Hospital, Paddington, London",
+    "place": "london",
+    "country": "United Kingdom",
+    "lat": 51.517222,
+    "lon": -0.173056,
+    "precision": "site",
+    "wikidata": "Q3495342",
+    "note": "Fleming's laboratory at St Mary's is preserved as the Alexander Fleming Laboratory Museum."
+  },
+  "people": [
+    "Alexander Fleming",
+    "Howard Florey",
+    "Ernst Chain"
+  ],
+  "tags": [
+    "antibiotics",
+    "medicine",
+    "science",
+    "Penicillium"
+  ],
+  "summary": "At St Mary's Hospital, Alexander Fleming noticed that a mould contaminating a bacterial culture had killed the bacteria around it — the discovery of penicillin.",
+  "description": [
+    "Returning from holiday in September 1928, Alexander Fleming, a bacteriologist at St Mary's Hospital Medical School in London, sorted through dishes of Staphylococcus bacteria. On one, a mould was growing, and the area immediately around it was clear of bacteria.",
+    "The mould was later identified as a strain of Penicillium notatum. Fleming found that his 'mould juice' could kill a range of harmful bacteria and published his findings, but he and his assistants were unable to isolate a stable, pure form of the substance."
+  ],
+  "context": [
+    "Penicillin became a practical medicine only after a team at the University of Oxford led by Howard Florey and Ernst Chain took up the work in 1939. Their first patient was treated in February 1941, and wartime mass production followed with help from laboratories and companies in the United States.",
+    "Fleming, Florey and Chain shared the 1945 Nobel Prize in Physiology or Medicine."
+  ],
+  "facts": [
+    {
+      "text": "Fleming made the observation on returning from holiday on 3 September 1928, while working at St Mary's Hospital Medical School.",
+      "s": [
+        1
+      ]
+    },
+    {
+      "text": "The mould was later identified as a strain of Penicillium notatum.",
+      "s": [
+        1
+      ]
+    },
+    {
+      "text": "Florey, Chain and colleagues at Oxford began purifying penicillin in 1939; the first patient received Oxford penicillin on 12 February 1941.",
+      "s": [
+        1
+      ]
+    },
+    {
+      "text": "Fleming, Chain and Florey shared the 1945 Nobel Prize in Physiology or Medicine.",
+      "s": [
+        2
+      ]
+    }
+  ],
+  "uncertain": [
+    {
+      "text": "The discovery is often told as a single moment, but turning penicillin into a usable drug took more than a decade of work by other scientists; crediting the discovery to one person simplifies that history.",
+      "s": [
+        1
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Alexander Fleming Discovery and Development of Penicillin",
+      "publisher": "American Chemical Society (National Historic Chemical Landmarks)",
+      "url": "https://www.acs.org/education/whatischemistry/landmarks/flemingpenicillin.html",
+      "supports": "Date, location, observation, later development at Oxford"
+    },
+    {
+      "title": "Sir Alexander Fleming – Biographical",
+      "publisher": "NobelPrize.org",
+      "url": "https://www.nobelprize.org/prizes/medicine/1945/fleming/biographical/",
+      "supports": "Career at St Mary's, 1945 Nobel Prize"
+    }
+  ],
+  "image": {
+    "file": "Synthetic Production of Penicillin TR1468.jpg",
+    "alt": "Black-and-white photograph of Alexander Fleming in his laboratory, looking at a culture dish",
+    "caption": "Alexander Fleming in his laboratory, photographed in 1943."
+  },
+  "related": [
+    "curie-discovery-of-radium",
+    "dna-double-helix"
+  ]
+}

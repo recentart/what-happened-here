@@ -1,0 +1,97 @@
+{
+  "slug": "colosseum",
+  "title": "The Colosseum",
+  "category": "landmark",
+  "featured": true,
+  "when": {
+    "label": "c. 70–80 CE",
+    "start": [
+      70
+    ],
+    "end": [
+      80
+    ],
+    "approx": true,
+    "note": "Construction began sometime between 70 and 72 CE; the amphitheatre was dedicated in 80 CE. Domitian added the top storey in 82 CE."
+  },
+  "where": {
+    "name": "Piazza del Colosseo, Rome",
+    "place": "rome",
+    "country": "Italy",
+    "lat": 41.890278,
+    "lon": 12.492222,
+    "precision": "site",
+    "wikidata": "Q10285"
+  },
+  "people": [
+    "Vespasian",
+    "Titus",
+    "Domitian"
+  ],
+  "tags": [
+    "Roman Empire",
+    "amphitheatre",
+    "Flavian dynasty",
+    "gladiators"
+  ],
+  "summary": "The Flavian emperors built this giant amphitheatre on the site of Nero's private lake; it was dedicated by Titus in 80 CE with 100 days of games.",
+  "description": [
+    "Construction of the Flavian Amphitheatre — now known as the Colosseum — began between 70 and 72 CE under the emperor Vespasian. It was built on the grounds of Nero's Golden House, where the palace's artificial lake was drained to make room for it.",
+    "Titus officially dedicated the building in 80 CE with a ceremony that included 100 days of games, and Domitian completed it by adding the uppermost storey in 82 CE. It seated some 50,000 spectators, who were shaded by a huge retractable awning."
+  ],
+  "context": [
+    "Replacing a tyrannical emperor's private lake with a public amphitheatre was a symbolic choice by Vespasian. The Colosseum is part of the Historic Centre of Rome, inscribed as a UNESCO World Heritage Site in 1980."
+  ],
+  "facts": [
+    {
+      "text": "Construction began between 70 and 72 CE during Vespasian's reign.",
+      "s": [
+        1
+      ]
+    },
+    {
+      "text": "Titus dedicated it in 80 CE with 100 days of games; Domitian added the top storey in 82 CE.",
+      "s": [
+        1
+      ]
+    },
+    {
+      "text": "It seated some 50,000 spectators.",
+      "s": [
+        1
+      ]
+    }
+  ],
+  "uncertain": [
+    {
+      "text": "The exact year construction started is not known; Britannica gives a range of 70–72 CE.",
+      "s": [
+        1
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Colosseum",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/topic/Colosseum",
+      "supports": "Construction dates, dedication, capacity, site"
+    },
+    {
+      "title": "Historic Centre of Rome",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/91",
+      "supports": "World Heritage status"
+    }
+  ],
+  "image": {
+    "file": "Colosseo 2020.jpg",
+    "alt": "The Colosseum's curved stone outer wall with rows of arches, photographed at dusk",
+    "caption": "The Colosseum in 2020."
+  },
+  "related": [
+    "assassination-of-julius-caesar",
+    "parthenon",
+    "pompeii-eruption-of-vesuvius"
+  ]
+}

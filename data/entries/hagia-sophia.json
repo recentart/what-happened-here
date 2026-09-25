@@ -1,0 +1,90 @@
+{
+  "slug": "hagia-sophia",
+  "title": "Hagia Sophia",
+  "category": "landmark",
+  "when": {
+    "label": "532–537 CE",
+    "start": [
+      532
+    ],
+    "end": [
+      537
+    ]
+  },
+  "where": {
+    "name": "Sultanahmet, Istanbul",
+    "place": "istanbul",
+    "country": "Türkiye",
+    "lat": 41.008333,
+    "lon": 28.98,
+    "precision": "site",
+    "wikidata": "Q12506"
+  },
+  "people": [
+    "Justinian I",
+    "Anthemius of Tralles",
+    "Isidorus of Miletus"
+  ],
+  "tags": [
+    "Byzantine Empire",
+    "church",
+    "mosque",
+    "dome",
+    "architecture"
+  ],
+  "summary": "Built in about six years for the Byzantine emperor Justinian I, Hagia Sophia has been a church, a mosque, a museum and a mosque again.",
+  "description": [
+    "An earlier church on the site burned during the Nika insurrection of January 532, giving Justinian I the opportunity to build a splendid replacement. The new Hagia Sophia was completed in 537, designed by Anthemius of Tralles and Isidorus of Miletus, architects known for their knowledge of mechanics and mathematics.",
+    "Over the centuries it served as an Eastern Orthodox church, a Roman Catholic cathedral (1204–61), an Orthodox church again, a mosque from 1453, a museum from 1935, and again a mosque from 2020."
+  ],
+  "context": [
+    "Hagia Sophia became a model for a whole family of later churches and mosques. It is part of the Historic Areas of Istanbul, inscribed as a UNESCO World Heritage Site in 1985."
+  ],
+  "facts": [
+    {
+      "text": "It was built between 532 and 537 CE under Justinian I.",
+      "s": [
+        1,
+        2
+      ]
+    },
+    {
+      "text": "Its architects were Anthemius of Tralles and Isidorus of Miletus.",
+      "s": [
+        1,
+        2
+      ]
+    },
+    {
+      "text": "It was a mosque from 1453 to 1935, a museum from 1935 to 2020, and has been a mosque again since 2020.",
+      "s": [
+        1
+      ]
+    }
+  ],
+  "uncertain": [],
+  "sources": [
+    {
+      "title": "Hagia Sophia",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/topic/Hagia-Sophia",
+      "supports": "Construction, architects, later uses"
+    },
+    {
+      "title": "Historic Areas of Istanbul",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/356",
+      "supports": "Architects, dates, influence, World Heritage status"
+    }
+  ],
+  "image": {
+    "file": "Hagia Sophia Mars 2013.jpg",
+    "alt": "Hagia Sophia's great central dome and minarets under a clear sky",
+    "caption": "Hagia Sophia in March 2013."
+  },
+  "related": [
+    "fall-of-constantinople",
+    "parthenon",
+    "taj-mahal"
+  ]
+}

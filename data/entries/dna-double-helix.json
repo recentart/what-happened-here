@@ -1,0 +1,100 @@
+{
+  "slug": "dna-double-helix",
+  "title": "The DNA double helix is published",
+  "category": "invention",
+  "when": {
+    "label": "25 April 1953",
+    "start": [
+      1953,
+      4,
+      25
+    ],
+    "note": "Date of publication of Watson and Crick's paper in Nature."
+  },
+  "where": {
+    "name": "Old Cavendish Laboratory, Free School Lane, Cambridge",
+    "country": "United Kingdom",
+    "lat": 52.2034,
+    "lon": 0.1187,
+    "precision": "area",
+    "wikidata": "Q5500055",
+    "note": "The Cavendish Laboratory was then on Free School Lane; it has since moved to west Cambridge."
+  },
+  "people": [
+    "James Watson",
+    "Francis Crick",
+    "Maurice Wilkins",
+    "Rosalind Franklin"
+  ],
+  "tags": [
+    "genetics",
+    "biology",
+    "molecular structure",
+    "Nobel Prize"
+  ],
+  "summary": "James Watson and Francis Crick, working at the Cavendish Laboratory in Cambridge, proposed the double-helix structure of DNA in a short paper in Nature.",
+  "description": [
+    "On 25 April 1953 the journal Nature published 'Molecular Structure of Nucleic Acids: A Structure for Deoxyribose Nucleic Acid' by J. D. Watson and F. H. C. Crick, proposing that DNA is made of two helical chains.",
+    "Their model drew on experimental data from several researchers, including Rosalind Franklin and Maurice Wilkins at King's College London. In 1952 Franklin had used X-ray diffraction to capture 'Photo 51', which revealed DNA's helical shape."
+  ],
+  "context": [
+    "Watson, Crick and Wilkins shared the 1962 Nobel Prize in Physiology or Medicine for their discoveries concerning the molecular structure of nucleic acids."
+  ],
+  "facts": [
+    {
+      "text": "Watson and Crick's paper was published in Nature on 25 April 1953.",
+      "s": [
+        1
+      ]
+    },
+    {
+      "text": "Crick, Watson and Wilkins received the 1962 Nobel Prize in Physiology or Medicine.",
+      "s": [
+        2
+      ]
+    }
+  ],
+  "uncertain": [
+    {
+      "text": "Franklin's role has long been debated. In a 2023 Nature article, historians Matthew Cobb and Nathaniel Comfort argued from newly examined 1953 documents that she was 'an equal player' rather than a victim whose data were simply taken.",
+      "s": [
+        4
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Molecular Structure of Nucleic Acids: A Structure for Deoxyribose Nucleic Acid",
+      "publisher": "Nature 171, 737–738 (1953)",
+      "url": "https://www.nature.com/articles/171737a0",
+      "supports": "Publication date, authors"
+    },
+    {
+      "title": "The Nobel Prize in Physiology or Medicine 1962",
+      "publisher": "NobelPrize.org",
+      "url": "https://www.nobelprize.org/prizes/medicine/1962/summary/",
+      "supports": "Nobel laureates"
+    },
+    {
+      "title": "DNA",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/topic/DNA",
+      "supports": "Role of Franklin and Wilkins, Photo 51"
+    },
+    {
+      "title": "What Rosalind Franklin truly contributed to the discovery of DNA's structure",
+      "publisher": "Nature (2023)",
+      "url": "https://www.nature.com/articles/d41586-023-01313-5",
+      "supports": "Historical debate over Franklin's contribution"
+    }
+  ],
+  "image": {
+    "file": "Free School Lane.JPG",
+    "alt": "A narrow street in Cambridge lined with old brick and stone laboratory buildings",
+    "caption": "Free School Lane, Cambridge, beside the old Cavendish Laboratory."
+  },
+  "related": [
+    "discovery-of-penicillin",
+    "curie-discovery-of-radium"
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "slug": "world-wide-web-cern",
+  "title": "The World Wide Web is invented at CERN",
+  "category": "invention",
+  "featured": true,
+  "when": {
+    "label": "March 1989 – August 1991",
+    "start": [
+      1989,
+      3
+    ],
+    "end": [
+      1991,
+      8
+    ],
+    "note": "From Tim Berners-Lee's first proposal (March 1989) to his public announcement of the WWW software (August 1991)."
+  },
+  "where": {
+    "name": "CERN, Meyrin, near Geneva",
+    "country": "Switzerland",
+    "lat": 46.234493,
+    "lon": 6.049129,
+    "precision": "site",
+    "wikidata": "Q42944"
+  },
+  "people": [
+    "Tim Berners-Lee",
+    "Robert Cailliau",
+    "Nicola Pellow"
+  ],
+  "tags": [
+    "internet",
+    "hypertext",
+    "computing",
+    "physics laboratory"
+  ],
+  "summary": "Working at the CERN physics laboratory, Tim Berners-Lee proposed and built the World Wide Web, running the first website on a NeXT computer in his office.",
+  "description": [
+    "Tim Berners-Lee wrote the first proposal for the World Wide Web in March 1989; with Robert Cailliau it was formalised as a management proposal in November 1990. By the end of 1990 he had the first web server and browser running at CERN on a NeXT computer labelled 'This machine is a server. DO NOT POWER IT DOWN!!'",
+    "info.cern.ch was the world's first website. In 1991 Berners-Lee released his WWW software, including a simple line-mode browser written by Nicola Pellow; it became available to colleagues at CERN in March 1991 and was announced on internet newsgroups in August 1991."
+  ],
+  "context": [
+    "Early in 1993 the National Center for Supercomputing Applications (NCSA) at the University of Illinois released the first version of its Mosaic browser."
+  ],
+  "facts": [
+    {
+      "text": "Berners-Lee wrote the first proposal in March 1989.",
+      "s": [
+        1
+      ]
+    },
+    {
+      "text": "The first web server and browser were running at CERN by the end of 1990.",
+      "s": [
+        1
+      ]
+    },
+    {
+      "text": "info.cern.ch was the address of the world's first website and web server.",
+      "s": [
+        1
+      ]
+    }
+  ],
+  "uncertain": [],
+  "sources": [
+    {
+      "title": "A short history of the Web",
+      "publisher": "CERN",
+      "url": "https://home.cern/science/computing/the-birth-of-the-web/short-history-web/",
+      "supports": "Proposal, first server, software release, Mosaic"
+    },
+    {
+      "title": "The birth of the Web",
+      "publisher": "CERN",
+      "url": "https://home.cern/science/computing/the-birth-of-the-web/",
+      "supports": "Overview"
+    }
+  ],
+  "image": {
+    "file": "CERN-aerial 1.jpg",
+    "alt": "Aerial photograph of the CERN laboratory buildings with fields and mountains beyond",
+    "caption": "Aerial view of CERN near Geneva, 2012."
+  },
+  "related": [
+    "gutenberg-bible",
+    "marconi-transatlantic-signal"
+  ]
+}

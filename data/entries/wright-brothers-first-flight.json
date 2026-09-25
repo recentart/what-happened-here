@@ -1,0 +1,86 @@
+{
+  "slug": "wright-brothers-first-flight",
+  "title": "Wright brothers' first powered flight",
+  "category": "invention",
+  "featured": true,
+  "when": {
+    "label": "17 December 1903",
+    "start": [
+      1903,
+      12,
+      17
+    ]
+  },
+  "where": {
+    "name": "Kill Devil Hills, near Kitty Hawk, North Carolina",
+    "country": "United States",
+    "lat": 36.0143,
+    "lon": -75.6679,
+    "precision": "site",
+    "wikidata": "Q2038747",
+    "note": "Now the Wright Brothers National Memorial."
+  },
+  "people": [
+    "Orville Wright",
+    "Wilbur Wright",
+    "John T. Daniels"
+  ],
+  "tags": [
+    "aviation",
+    "aircraft",
+    "engineering",
+    "Wright Flyer"
+  ],
+  "summary": "Orville and Wilbur Wright made the first powered, sustained and controlled aeroplane flights at Kill Devil Hills, North Carolina.",
+  "description": [
+    "The Wright brothers, bicycle makers from Dayton, Ohio, had experimented with flight since 1899 and made more than a thousand glides from Big Kill Devil Hill, becoming skilled pilots. In 1903 they fitted an engine to a new 40-foot, 605-pound Flyer that drove two pusher propellers.",
+    "After an unsuccessful attempt on 14 December, when Wilbur won the coin toss but stalled the machine on take-off, the brothers succeeded on 17 December 1903."
+  ],
+  "context": [
+    "The Smithsonian's National Air and Space Museum holds the original 1903 Wright Flyer. The Wrights went on to build and fly the first fully practical aeroplane."
+  ],
+  "facts": [
+    {
+      "text": "The brothers achieved the first powered, sustained and controlled aeroplane flight in 1903.",
+      "s": [
+        2
+      ]
+    },
+    {
+      "text": "An attempt on 14 December 1903 failed when the Flyer stalled and dove into the sand.",
+      "s": [
+        1
+      ]
+    }
+  ],
+  "uncertain": [],
+  "sources": [
+    {
+      "title": "1903 – The First Flight",
+      "publisher": "US National Park Service, Wright Brothers National Memorial",
+      "url": "https://www.nps.gov/wrbr/learn/historyculture/thefirstflight.htm",
+      "supports": "Experiments, the Flyer, 14 and 17 December 1903"
+    },
+    {
+      "title": "Wright brothers",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/biography/Wright-brothers",
+      "supports": "Achievement, biography"
+    },
+    {
+      "title": "1903 Wright Flyer",
+      "publisher": "Smithsonian National Air and Space Museum",
+      "url": "https://airandspace.si.edu/collection-objects/1903-wright-flyer/nasm_A19610048000",
+      "supports": "The original aircraft"
+    }
+  ],
+  "image": {
+    "file": "First flight2.jpg",
+    "alt": "Black-and-white photograph of the Wright Flyer just after take-off, with Orville at the controls and Wilbur running alongside",
+    "caption": "The first flight, 17 December 1903, photographed by John T. Daniels."
+  },
+  "related": [
+    "marconi-transatlantic-signal",
+    "edison-incandescent-lamp"
+  ]
+}

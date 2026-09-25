@@ -1,0 +1,96 @@
+{
+  "slug": "nelson-mandela-robben-island",
+  "title": "Nelson Mandela imprisoned on Robben Island",
+  "category": "person",
+  "featured": true,
+  "when": {
+    "label": "1964–1982",
+    "start": [
+      1964,
+      6
+    ],
+    "end": [
+      1982
+    ],
+    "note": "Mandela was sentenced to life imprisonment on 12 June 1964 and held on Robben Island until 1982, when he was moved to a mainland prison."
+  },
+  "where": {
+    "name": "Robben Island, Table Bay, off Cape Town",
+    "country": "South Africa",
+    "lat": -33.805,
+    "lon": 18.37,
+    "precision": "site",
+    "wikidata": "Q192493"
+  },
+  "people": [
+    "Nelson Mandela",
+    "Walter Sisulu",
+    "Ahmed Kathrada",
+    "Govan Mbeki"
+  ],
+  "tags": [
+    "apartheid",
+    "political prisoners",
+    "civil rights",
+    "South Africa"
+  ],
+  "summary": "Sentenced to life imprisonment after the Rivonia Trial, Nelson Mandela spent 18 years in the maximum-security prison on Robben Island before becoming South Africa's first Black president.",
+  "description": [
+    "Mandela and other leaders of the anti-apartheid movement were tried for sabotage in the Rivonia Trial. On 11 June 1964 Mandela and seven co-accused were convicted, and the next day they were sentenced to life imprisonment; all but one were sent to Robben Island.",
+    "Mandela was held on Robben Island from 1964 to 1982. UNESCO describes the island's maximum-security prison for political prisoners, built in the 1960s, as witness to 'the triumph of democracy and freedom over oppression and racism'."
+  ],
+  "context": [
+    "Robben Island was used at various times from the 17th to the 20th century as a prison, a hospital for people excluded from society and a military base. Mandela's negotiations with President F. W. de Klerk in the early 1990s helped end apartheid, and he served as president from 1994 to 1999. Robben Island was inscribed as a UNESCO World Heritage Site in 1999."
+  ],
+  "facts": [
+    {
+      "text": "Mandela was sentenced to life imprisonment on 12 June 1964.",
+      "s": [
+        2,
+        3
+      ]
+    },
+    {
+      "text": "He was imprisoned on Robben Island from 1964 to 1982.",
+      "s": [
+        2
+      ]
+    },
+    {
+      "text": "He was South Africa's first Black president, from 1994 to 1999.",
+      "s": [
+        2
+      ]
+    }
+  ],
+  "uncertain": [],
+  "sources": [
+    {
+      "title": "Robben Island",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/916",
+      "supports": "Island's history, political prison, World Heritage status"
+    },
+    {
+      "title": "Nelson Mandela",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/biography/Nelson-Mandela",
+      "supports": "Rivonia Trial, sentence, Robben Island years, presidency"
+    },
+    {
+      "title": "Biography of Nelson Mandela",
+      "publisher": "Nelson Mandela Foundation",
+      "url": "https://www.nelsonmandela.org/biography",
+      "supports": "Conviction and sentencing dates, co-accused"
+    }
+  ],
+  "image": {
+    "file": "Robben Island - Cape Town, South Africa (3883849594).jpg",
+    "alt": "Low buildings and a lighthouse on flat Robben Island with Table Mountain across the bay",
+    "caption": "Robben Island, with Cape Town in the distance."
+  },
+  "related": [
+    "march-on-washington",
+    "salt-march"
+  ]
+}

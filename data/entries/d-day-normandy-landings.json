@@ -1,0 +1,92 @@
+{
+  "slug": "d-day-normandy-landings",
+  "title": "D-Day: the Normandy landings",
+  "category": "battle",
+  "featured": true,
+  "when": {
+    "label": "6 June 1944",
+    "start": [
+      1944,
+      6,
+      6
+    ]
+  },
+  "where": {
+    "name": "Omaha Beach, Normandy",
+    "country": "France",
+    "lat": 49.368889,
+    "lon": -0.868611,
+    "precision": "area",
+    "wikidata": "Q464257",
+    "note": "Marker placed at Omaha Beach, one of five landing beaches along about 50 miles of the Normandy coast."
+  },
+  "people": [
+    "Dwight D. Eisenhower"
+  ],
+  "tags": [
+    "Second World War",
+    "Operation Overlord",
+    "amphibious invasion",
+    "Normandy"
+  ],
+  "summary": "Allied forces landed on five beaches in Normandy in the largest amphibious invasion in history, beginning the liberation of north-west Europe from German occupation.",
+  "description": [
+    "Just after midnight on 6 June 1944, some 23,400 airborne troops landed behind the Normandy beaches to protect the flanks of the invasion. From 6:30 a.m., after naval bombardment and air attacks, assault troops came ashore: Americans at Utah and Omaha, British at Gold and Sword, and Canadians at Juno.",
+    "Nearly 160,000 Allied troops landed in Normandy on D-Day. American troops suffered the heaviest casualties at Omaha Beach, where more than 34,000 came ashore."
+  ],
+  "context": [
+    "Codenamed Operation Overlord, the landings marked the start of a long and costly campaign to liberate north-west Europe. The Imperial War Museums describe D-Day as the largest combined naval, air and land operation in the history of warfare."
+  ],
+  "facts": [
+    {
+      "text": "About 23,400 airborne troops landed early on 6 June.",
+      "s": [
+        1
+      ]
+    },
+    {
+      "text": "Nearly 160,000 Allied troops landed on D-Day.",
+      "s": [
+        1
+      ]
+    },
+    {
+      "text": "By nightfall the Allies had suffered over 10,300 casualties — killed, wounded and missing — about 2,400 of them at Omaha Beach.",
+      "s": [
+        1
+      ]
+    }
+  ],
+  "uncertain": [
+    {
+      "text": "Casualty figures for D-Day alone cannot be stated exactly; the National WWII Museum gives 'over 10,300' Allied casualties by nightfall.",
+      "s": [
+        1
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Research Starters: D-Day – The Allied Invasion of Normandy",
+      "publisher": "The National WWII Museum",
+      "url": "https://www.nationalww2museum.org/students-teachers/student-resources/research-starters/research-starters-d-day",
+      "supports": "Timeline, beaches, troop numbers, casualties"
+    },
+    {
+      "title": "D-Day",
+      "publisher": "Imperial War Museums",
+      "url": "https://www.iwm.org.uk/history/second-world-war/d-day",
+      "supports": "Date, Operation Overlord, scale"
+    }
+  ],
+  "image": {
+    "file": "Into the Jaws of Death 23-0455M edit.jpg",
+    "alt": "Black-and-white photograph of American soldiers wading from a landing craft towards a smoke-covered beach",
+    "caption": "US troops wade ashore at Omaha Beach on 6 June 1944 ('Into the Jaws of Death', photograph by Robert F. Sargent)."
+  },
+  "related": [
+    "fall-of-the-berlin-wall",
+    "atomic-bombing-of-hiroshima",
+    "battle-of-waterloo"
+  ]
+}

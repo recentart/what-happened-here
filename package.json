@@ -1,0 +1,18 @@
+{
+  "name": "what-happened-here",
+  "version": "1.0.0",
+  "description": "Interactive map for exploring documented historical events, places, people, and stories around the world.",
+  "type": "module",
+  "private": true,
+  "license": "MIT",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "validate": "node scripts/validate.mjs",
+    "images": "node scripts/enrich-images.mjs",
+    "check:coords": "node scripts/check-coords.mjs",
+    "check:sources": "node scripts/fetch-pages.mjs --sources && node scripts/check-claims.mjs",
+    "test": "node --test test/*.test.mjs",
+    "deploy": "npx wrangler deploy"
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "slug": "assassination-of-julius-caesar",
+  "title": "Assassination of Julius Caesar",
+  "category": "event",
+  "when": {
+    "label": "15 March 44 BCE (the Ides of March)",
+    "start": [
+      -44,
+      3,
+      15
+    ]
+  },
+  "where": {
+    "name": "Curia of Pompey, Area Sacra di Largo Argentina, Rome",
+    "place": "rome",
+    "country": "Italy",
+    "lat": 41.895278,
+    "lon": 12.476944,
+    "precision": "site",
+    "wikidata": "Q1541068",
+    "note": "Remains of the Curia's base are visible behind Temples B and C of the Area Sacra."
+  },
+  "people": [
+    "Julius Caesar",
+    "Pompey",
+    "Augustus"
+  ],
+  "tags": [
+    "Roman Republic",
+    "Ides of March",
+    "Senate",
+    "assassination"
+  ],
+  "summary": "Julius Caesar, dictator of Rome, was killed by a group of senators during a Senate meeting in the Curia of Pompey on the Ides of March, 44 BCE.",
+  "description": [
+    "Caesar — conqueror of Gaul, victor of the civil war of 49–45 BCE and dictator from 46 BCE — was launching a series of political and social reforms when he was assassinated by a group of nobles on 15 March 44 BCE.",
+    "According to Rome's heritage office, the Senate session that day was held in the Curia of Pompey, a large hall where the Senate met from time to time. It formed part of a monumental complex built by Pompey, with porticoes and gardens leading to a theatre. Caesar fell at the foot of a colossal statue of Pompey in the centre of the hall."
+  ],
+  "context": [
+    "Augustus later declared the Curia a place of crime (locus sceleratus) and had it walled up, moving Pompey's statue elsewhere. The remains of the Curia now lie within the Area Sacra di Largo Argentina, an archaeological area uncovered during demolition works in 1926."
+  ],
+  "facts": [
+    {
+      "text": "Caesar died on 15 March 44 BCE in Rome.",
+      "s": [
+        1
+      ]
+    },
+    {
+      "text": "The Senate meeting at which he was killed took place in the Curia of Pompey, now within the Area Sacra di Largo Argentina.",
+      "s": [
+        2
+      ]
+    },
+    {
+      "text": "The remains of the Curia's tuff-block base are visible behind Temples B and C.",
+      "s": [
+        2
+      ]
+    }
+  ],
+  "uncertain": [
+    {
+      "text": "Details of the killing itself, such as Caesar's last words, come from ancient writers composing long after the event and are not treated here as established fact.",
+      "s": [
+        1
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Julius Caesar",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/biography/Julius-Caesar-Roman-ruler",
+      "supports": "Date, career, assassination"
+    },
+    {
+      "title": "La Curia di Pompeo",
+      "publisher": "Sovrintendenza Capitolina ai Beni Culturali (Roma Capitale)",
+      "url": "https://www.sovraintendenzaroma.it/content/la-curia-di-pompeo",
+      "supports": "Location of the assassination, visible remains, walling-up by Augustus"
+    },
+    {
+      "title": "Area Sacra di Largo Argentina",
+      "publisher": "Sovrintendenza Capitolina ai Beni Culturali (Roma Capitale)",
+      "url": "https://www.sovraintendenzaroma.it/i_luoghi/roma_antica/aree_archeologiche/area_sacra_di_largo_argentina",
+      "supports": "Discovery of the archaeological area in 1926"
+    }
+  ],
+  "image": {
+    "file": "Largo di Torre Argentina 4.jpg",
+    "alt": "Ruins of ancient temple foundations and columns sunk below street level in the Largo di Torre Argentina, Rome",
+    "caption": "The Area Sacra di Largo Argentina, where the remains of the Curia of Pompey survive."
+  },
+  "related": [
+    "colosseum",
+    "battle-of-hastings"
+  ]
+}

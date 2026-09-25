@@ -1,0 +1,93 @@
+{
+  "slug": "parthenon",
+  "title": "The Parthenon",
+  "category": "landmark",
+  "when": {
+    "label": "447–432 BCE",
+    "start": [
+      -447
+    ],
+    "end": [
+      -432
+    ],
+    "note": "Work began in 447 BCE; the building was complete by 438 BCE, and its sculptural decoration continued until 432 BCE."
+  },
+  "where": {
+    "name": "Acropolis, Athens",
+    "place": "athens",
+    "country": "Greece",
+    "lat": 37.971527,
+    "lon": 23.726601,
+    "precision": "site",
+    "wikidata": "Q10288"
+  },
+  "people": [
+    "Pericles",
+    "Ictinus",
+    "Callicrates",
+    "Phidias"
+  ],
+  "tags": [
+    "Ancient Greece",
+    "temple",
+    "Athena",
+    "Doric order",
+    "Acropolis"
+  ],
+  "summary": "The temple of Athena Parthenos on the Athenian Acropolis was built as part of Pericles' rebuilding programme after the Persian Wars.",
+  "description": [
+    "After the Acropolis was sacked during the Greco-Persian Wars, the Athenian statesman Pericles directed a great rebuilding programme. Work on the Parthenon began in 447 BCE under the architects Ictinus and Callicrates, with the sculptor Phidias supervising.",
+    "The building was completed by 438 BCE, when Phidias's great gold-and-ivory statue of Athena was dedicated inside, and work on the exterior sculpture continued until 432 BCE."
+  ],
+  "context": [
+    "The Parthenon is generally considered the culmination of the Doric order. It served as the chief shrine to Athena and as the treasury of the Delian League. The Acropolis was inscribed as a UNESCO World Heritage Site in 1987."
+  ],
+  "facts": [
+    {
+      "text": "Construction began in 447 BCE and the building was complete by 438 BCE; decoration continued until 432 BCE.",
+      "s": [
+        1,
+        2
+      ]
+    },
+    {
+      "text": "The architects were Ictinus and Callicrates, working with the sculptor Phidias.",
+      "s": [
+        1,
+        2
+      ]
+    }
+  ],
+  "uncertain": [
+    {
+      "text": "Britannica notes that, according to some sources, Pericles used surplus Delian League funds to pay for the buildings; this is an ancient allegation rather than a documented fact.",
+      "s": [
+        1
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Parthenon",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/topic/Parthenon",
+      "supports": "Dates, architects, purpose, funding allegations"
+    },
+    {
+      "title": "Acropolis, Athens",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/404",
+      "supports": "Dates, architects, World Heritage status"
+    }
+  ],
+  "image": {
+    "file": "The Parthenon in Athens.jpg",
+    "alt": "The ruined marble columns of the Parthenon on the Acropolis hill",
+    "caption": "The Parthenon, photographed in 1978."
+  },
+  "related": [
+    "first-modern-olympic-games",
+    "colosseum",
+    "hagia-sophia"
+  ]
+}

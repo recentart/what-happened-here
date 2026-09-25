@@ -1,0 +1,92 @@
+{
+  "slug": "great-zimbabwe",
+  "title": "Great Zimbabwe",
+  "category": "landmark",
+  "when": {
+    "label": "c. 1100 – c. 1450",
+    "start": [
+      1100
+    ],
+    "end": [
+      1450
+    ],
+    "approx": true,
+    "note": "UNESCO dates the city to between the 11th and 15th centuries and states it was abandoned about 1450."
+  },
+  "where": {
+    "name": "Near Masvingo",
+    "country": "Zimbabwe",
+    "lat": -20.27,
+    "lon": 30.933,
+    "precision": "site",
+    "wikidata": "Q209217"
+  },
+  "people": [],
+  "tags": [
+    "Shona",
+    "Iron Age",
+    "stone architecture",
+    "trade",
+    "Africa"
+  ],
+  "summary": "The stone ruins of Great Zimbabwe are the remains of a Shona city that was the centre of a major trading state between the 11th and 15th centuries.",
+  "description": [
+    "Great Zimbabwe was founded in the 11th century by the Shona, a Bantu people. The site has three groups of ruins: the Hill Ruins, the Great Enclosure and the Valley Ruins. The Great Enclosure, an elliptical wall of cut granite blocks containing a high conical tower, dates to the 14th century.",
+    "In the 14th century it was the principal city of a major state extending over the gold-rich plateaux, with a population of more than 10,000. It was abandoned about 1450."
+  ],
+  "context": [
+    "Great Zimbabwe's economy was based on cattle, crops and the trade of gold with the Indian Ocean coast. European visitors in the late 19th century wrongly attributed the ruins to outsiders, such as the legendary city of Ophir; archaeological research has shown the city was built by the ancestors of the Shona. The word zimbabwe is Shona for 'stone houses', and the country takes its name from the site. Great Zimbabwe was inscribed as a UNESCO World Heritage Site in 1986."
+  ],
+  "facts": [
+    {
+      "text": "The city was founded in the 11th century by the Shona and abandoned about 1450.",
+      "s": [
+        1
+      ]
+    },
+    {
+      "text": "The Great Enclosure dates to the 14th century.",
+      "s": [
+        1
+      ]
+    },
+    {
+      "text": "Great Zimbabwe traded gold with the coast of the Indian Ocean.",
+      "s": [
+        2
+      ]
+    }
+  ],
+  "uncertain": [
+    {
+      "text": "Population estimates vary: UNESCO says more than 10,000 inhabitants in the 14th century, while Britannica gives 10,000 to 20,000 for the central ruins and valley.",
+      "s": [
+        1,
+        2
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Great Zimbabwe National Monument",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/364",
+      "supports": "Dates, builders, layout, population, World Heritage status"
+    },
+    {
+      "title": "Great Zimbabwe",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/place/Great-Zimbabwe",
+      "supports": "Economy, abandonment, European misattribution, name"
+    }
+  ],
+  "image": {
+    "file": "Wall of the great enclosure, Great Zimbabwe.JPG",
+    "alt": "The high curved dry-stone granite wall of the Great Enclosure at Great Zimbabwe",
+    "caption": "The wall of the Great Enclosure, Great Zimbabwe."
+  },
+  "related": [
+    "machu-picchu",
+    "great-pyramid-of-giza"
+  ]
+}

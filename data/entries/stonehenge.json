@@ -1,0 +1,84 @@
+{
+  "slug": "stonehenge",
+  "title": "Stonehenge",
+  "category": "landmark",
+  "when": {
+    "label": "c. 3000 – c. 2500 BCE (main phases)",
+    "start": [
+      -3000
+    ],
+    "end": [
+      -2500
+    ],
+    "approx": true,
+    "note": "English Heritage dates the first henge to about 3000 BC and the raising of the stones in the centre to about 2500 BC. The monument continued to be used and altered afterwards."
+  },
+  "where": {
+    "name": "Salisbury Plain, Wiltshire",
+    "country": "United Kingdom",
+    "lat": 51.178889,
+    "lon": -1.826111,
+    "precision": "site",
+    "wikidata": "Q39671"
+  },
+  "people": [],
+  "tags": [
+    "prehistory",
+    "Neolithic",
+    "stone circle",
+    "Bronze Age"
+  ],
+  "summary": "Built in stages over many centuries, Stonehenge began as a circular earthwork about 3000 BC; its great stone circle was raised around 2500 BC.",
+  "description": [
+    "The earliest known major work at Stonehenge was a circular ditch with inner and outer banks, built about 3000 BC and enclosing an area about 100 metres across. Just inside the bank were 56 pits known as the Aubrey Holes.",
+    "In about 2500 BC stones were set up in the centre of the monument: large sarsens in an inner horseshoe and an outer circle, with smaller 'bluestones' between them."
+  ],
+  "context": [
+    "About 64 cremation burials have been found, and perhaps as many as 150 individuals were buried at Stonehenge, making it the largest late Neolithic cemetery in the British Isles. In the early Bronze Age many burial mounds were built nearby. Stonehenge, Avebury and associated sites were inscribed as a UNESCO World Heritage Site in 1986."
+  ],
+  "facts": [
+    {
+      "text": "The first henge was built about 3000 BC; the stone circle was erected about 2500 BC.",
+      "s": [
+        1
+      ]
+    },
+    {
+      "text": "About 64 cremations have been found at the site.",
+      "s": [
+        1
+      ]
+    }
+  ],
+  "uncertain": [
+    {
+      "text": "What stood in the 56 Aubrey Holes has been much debated; English Heritage describes the long-held consensus and newer interpretations rather than a settled answer.",
+      "s": [
+        1
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "History of Stonehenge",
+      "publisher": "English Heritage",
+      "url": "https://www.english-heritage.org.uk/visit/places/stonehenge/history-and-stories/history/",
+      "supports": "Construction phases, dates, burials"
+    },
+    {
+      "title": "Stonehenge, Avebury and Associated Sites",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/373",
+      "supports": "World Heritage status"
+    }
+  ],
+  "image": {
+    "file": "Stonehenge Total.jpg",
+    "alt": "The standing stones and lintels of Stonehenge on open grassland",
+    "caption": "Stonehenge on Salisbury Plain, 2004."
+  },
+  "related": [
+    "great-pyramid-of-giza",
+    "battle-of-hastings"
+  ]
+}

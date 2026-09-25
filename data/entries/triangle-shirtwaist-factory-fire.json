@@ -1,0 +1,99 @@
+{
+  "slug": "triangle-shirtwaist-factory-fire",
+  "title": "Triangle Shirtwaist Factory fire",
+  "category": "disaster",
+  "when": {
+    "label": "25 March 1911",
+    "start": [
+      1911,
+      3,
+      25
+    ]
+  },
+  "where": {
+    "name": "Asch Building (now the Brown Building), Washington Place, Manhattan",
+    "place": "new-york-city",
+    "country": "United States",
+    "lat": 40.73,
+    "lon": -73.995278,
+    "precision": "site",
+    "wikidata": "Q4976083",
+    "note": "The building survives and is now part of New York University."
+  },
+  "people": [
+    "Max Blanck",
+    "Isaac Harris"
+  ],
+  "tags": [
+    "fire",
+    "labour",
+    "workplace safety",
+    "garment industry",
+    "immigrants"
+  ],
+  "summary": "A fire in a garment factory killed 146 workers, most of them young immigrant women, and set off a national movement for safer working conditions.",
+  "description": [
+    "On the evening of 25 March 1911 a fire broke out on the eighth floor of the Asch Building, where the Triangle Waist Company employed about 500 people making women's blouses on the top three floors. It spread quickly upward.",
+    "Fire-truck ladders could reach only six storeys, the overloaded fire escape collapsed, and many workers were trapped by doors that had been locked. Many leapt from the windows. The fire lasted about 18 minutes; 129 women and 17 men died."
+  ],
+  "context": [
+    "The factory's owners were charged with manslaughter but acquitted in December 1911. Public outrage led New York State to create a Factory Investigating Commission, and the disaster became a turning point for labour and safety laws in the United States."
+  ],
+  "facts": [
+    {
+      "text": "The fire started on the eighth floor of the Asch Building, 23–29 Washington Place, on 25 March 1911.",
+      "s": [
+        1
+      ]
+    },
+    {
+      "text": "146 people died: 129 women and 17 men, mostly young European immigrants.",
+      "s": [
+        1
+      ]
+    },
+    {
+      "text": "Doors had been locked to prevent theft, trapping workers inside.",
+      "s": [
+        1
+      ]
+    },
+    {
+      "text": "The owners were indicted for manslaughter and acquitted in December 1911.",
+      "s": [
+        1
+      ]
+    }
+  ],
+  "uncertain": [
+    {
+      "text": "The cause is not known for certain; Britannica says the fire was likely sparked by a discarded cigarette.",
+      "s": [
+        1
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Triangle shirtwaist factory fire",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/event/Triangle-shirtwaist-factory-fire",
+      "supports": "Date, location, casualties, causes, aftermath"
+    },
+    {
+      "title": "The Triangle Factory Fire",
+      "publisher": "Kheel Center, Cornell University ILR School",
+      "url": "https://trianglefire.ilr.cornell.edu/",
+      "supports": "Archive of primary documents about the fire"
+    }
+  ],
+  "image": {
+    "file": "Image of Triangle Shirtwaist Factory fire on March 25 - 1911.jpg",
+    "alt": "Black-and-white newspaper photograph of smoke pouring from the upper floors of a tall corner building as crowds watch",
+    "caption": "The Triangle Shirtwaist Factory fire, 25 March 1911, as published in the press."
+  },
+  "related": [
+    "stonewall-uprising",
+    "statue-of-liberty"
+  ]
+}

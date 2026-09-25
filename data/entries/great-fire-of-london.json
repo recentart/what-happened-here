@@ -1,0 +1,110 @@
+{
+  "slug": "great-fire-of-london",
+  "title": "Great Fire of London",
+  "category": "disaster",
+  "featured": true,
+  "when": {
+    "label": "2–6 September 1666",
+    "start": [
+      1666,
+      9,
+      2
+    ],
+    "end": [
+      1666,
+      9,
+      6
+    ],
+    "note": "Dates are in the Julian (Old Style) calendar then used in England. Britannica dates the fire 2–5 September and notes it was put out on Thursday 6 September after a final flare-up."
+  },
+  "where": {
+    "name": "Pudding Lane, City of London",
+    "place": "london",
+    "country": "United Kingdom",
+    "lat": 51.5102,
+    "lon": -0.0853,
+    "precision": "site",
+    "wikidata": "Q2716065",
+    "note": "Marker placed on Pudding Lane, where the fire began."
+  },
+  "people": [
+    "Thomas Farriner",
+    "Christopher Wren",
+    "Robert Hooke"
+  ],
+  "tags": [
+    "fire",
+    "17th century",
+    "City of London",
+    "The Monument"
+  ],
+  "summary": "A fire that began in a baker's house on Pudding Lane burned for four days and destroyed much of the medieval City of London, including old St Paul's Cathedral.",
+  "description": [
+    "On Sunday 2 September 1666 a fire broke out in the house of Thomas Farriner, the king's baker, on Pudding Lane near London Bridge. Driven by a violent east wind, it raged through the City for several days.",
+    "By the time it was extinguished it had destroyed most of the City's civic buildings, old St Paul's Cathedral, 87 parish churches and about 13,000 houses. Houses were blown up with gunpowder to create firebreaks."
+  ],
+  "context": [
+    "London had suffered a severe plague epidemic the year before. After the fire, Christopher Wren, John Evelyn and Robert Hooke each presented plans to rebuild the City on a new street layout, but none was adopted and the old street lines were largely kept. Wren went on to design the new St Paul's Cathedral and many City churches.",
+    "The fire is commemorated by the Monument, a column designed by Wren and Hooke that was built between 1671 and 1677 close to where the fire started."
+  ],
+  "facts": [
+    {
+      "text": "The fire began on Sunday 2 September 1666 in the house of the king's baker in Pudding Lane.",
+      "s": [
+        1,
+        2
+      ]
+    },
+    {
+      "text": "It destroyed old St Paul's Cathedral, 87 parish churches and about 13,000 houses.",
+      "s": [
+        1
+      ]
+    },
+    {
+      "text": "The Monument stands 202 feet from the site where the fire started; it was built from 1671 and completed in 1677.",
+      "s": [
+        2
+      ]
+    }
+  ],
+  "uncertain": [
+    {
+      "text": "Sources differ on the end date: Britannica gives 2–5 September, noting the fire was extinguished on the 6th, while the Monument's history describes a four-day fire.",
+      "s": [
+        1,
+        2
+      ]
+    },
+    {
+      "text": "The number of deaths is not reliably known; neither source gives a confirmed death toll.",
+      "s": [
+        1,
+        2
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Great Fire of London",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/event/Great-Fire-of-London",
+      "supports": "Dates, origin, extent of destruction, rebuilding plans"
+    },
+    {
+      "title": "History of the Monument",
+      "publisher": "The Monument (City of London)",
+      "url": "https://www.themonument.org.uk/history",
+      "supports": "Origin in Farriner's bakery, Monument's distance from the start, construction dates"
+    }
+  ],
+  "image": {
+    "file": "Great Fire London.jpg",
+    "alt": "Painting of London burning at night, seen from the river, with flames and smoke over the city skyline",
+    "caption": "The Great Fire as seen from a boat near Tower Wharf, painted by an unknown artist around 1675."
+  },
+  "related": [
+    "great-exhibition-1851",
+    "discovery-of-penicillin"
+  ]
+}

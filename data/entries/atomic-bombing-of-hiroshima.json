@@ -1,0 +1,83 @@
+{
+  "slug": "atomic-bombing-of-hiroshima",
+  "title": "Atomic bombing of Hiroshima",
+  "category": "battle",
+  "featured": true,
+  "when": {
+    "label": "6 August 1945, 8:15 a.m.",
+    "start": [
+      1945,
+      8,
+      6
+    ]
+  },
+  "where": {
+    "name": "Hiroshima Peace Memorial (Genbaku Dome), Hiroshima",
+    "country": "Japan",
+    "lat": 34.395556,
+    "lon": 132.453611,
+    "precision": "site",
+    "wikidata": "Q231140",
+    "note": "The Genbaku Dome was the only structure left standing near the hypocentre."
+  },
+  "people": [],
+  "tags": [
+    "Second World War",
+    "nuclear weapons",
+    "Hiroshima",
+    "Peace Memorial"
+  ],
+  "summary": "The United States dropped an atomic bomb on Hiroshima, the first use of a nuclear weapon in war; the City of Hiroshima estimates about 140,000 people had died by the end of 1945.",
+  "description": [
+    "At 8:15 a.m. on 6 August 1945 an atomic bomb exploded about 600 metres above Hiroshima, 43 seconds after it was dropped. It created a fireball that reached a radius of over 200 metres within a second, and surface temperatures near the hypocentre rose to 3,000–4,000°C.",
+    "Heat rays caused severe burns as far as 3.5 km away, and initial radiation was lethal within one kilometre of the hypocentre. Many people who seemed uninjured developed disorders and died in the days and months that followed."
+  ],
+  "context": [
+    "About 350,000 people are thought to have been in the city at the time, including residents, military personnel, commuters and people mobilised for building demolition work, among them people of various nationalities. The Genbaku Dome has been preserved in the state it was left in after the bombing, and it was inscribed as a UNESCO World Heritage Site in 1996."
+  ],
+  "facts": [
+    {
+      "text": "The bomb exploded at 8:15 a.m. on 6 August 1945, about 600 metres above the city.",
+      "s": [
+        1
+      ]
+    },
+    {
+      "text": "The Genbaku Dome was the only structure left standing near the hypocentre.",
+      "s": [
+        2
+      ]
+    }
+  ],
+  "uncertain": [
+    {
+      "text": "The precise number of deaths is unknown. The City of Hiroshima estimates that approximately 140,000 people had died by the end of December 1945.",
+      "s": [
+        1
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "The Realities of the Atomic Bombing",
+      "publisher": "City of Hiroshima",
+      "url": "https://www.city.hiroshima.lg.jp/english/peace/1029920/1009857.html",
+      "supports": "Time, explosion, effects, death estimate, population"
+    },
+    {
+      "title": "Hiroshima Peace Memorial (Genbaku Dome)",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/775",
+      "supports": "Genbaku Dome, World Heritage status"
+    }
+  ],
+  "image": {
+    "file": "Genbaku Dome04-r.JPG",
+    "alt": "The skeletal ruin of the Genbaku Dome, its bare steel dome frame above broken walls, beside a river",
+    "caption": "The Hiroshima Peace Memorial (Genbaku Dome), 2013."
+  },
+  "related": [
+    "d-day-normandy-landings",
+    "chernobyl-disaster"
+  ]
+}

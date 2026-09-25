@@ -1,0 +1,99 @@
+{
+  "slug": "einstein-miracle-year-bern",
+  "title": "Einstein's 'miracle year' in Bern",
+  "category": "person",
+  "featured": true,
+  "when": {
+    "label": "1905",
+    "start": [
+      1905
+    ]
+  },
+  "where": {
+    "name": "Einsteinhaus, Kramgasse 49, Bern",
+    "country": "Switzerland",
+    "lat": 46.94767,
+    "lon": 7.44997,
+    "precision": "site",
+    "wikidata": "Q390003",
+    "note": "A former residence of Einstein in Bern's old town, now a museum."
+  },
+  "people": [
+    "Albert Einstein",
+    "Mileva Marić"
+  ],
+  "tags": [
+    "physics",
+    "relativity",
+    "photoelectric effect",
+    "patent office"
+  ],
+  "summary": "While working as a clerk at the Swiss patent office in Bern, Albert Einstein wrote the 1905 papers on light, Brownian motion and special relativity that transformed physics.",
+  "description": [
+    "Unable to find a teaching post after graduating, Einstein took a position at the Swiss patent office in Bern in 1902, on the recommendation of the father of his friend Marcel Grossmann. The steady income allowed him to marry Mileva Marić in January 1903, and their son Hans Albert was born in Bern in 1904.",
+    "Einstein found he could finish analysing patent applications quickly, leaving time for his own research. In 1905, his 'miracle year', he wrote papers on the photoelectric effect, Brownian motion and the special theory of relativity, and set out the formula E = mc². He also obtained his doctorate that year."
+  ],
+  "context": [
+    "Einstein was appointed a Privatdozent (lecturer) in Bern in 1908 and a professor at Zurich in 1909. He received the 1921 Nobel Prize in Physics for his explanation of the photoelectric effect."
+  ],
+  "facts": [
+    {
+      "text": "Einstein became a clerk at the Swiss patent office in Bern in 1902.",
+      "s": [
+        1
+      ]
+    },
+    {
+      "text": "In 1905 he wrote papers on the photoelectric effect, Brownian motion and special relativity, and obtained his doctorate.",
+      "s": [
+        1,
+        2
+      ]
+    },
+    {
+      "text": "He won the 1921 Nobel Prize in Physics for explaining the photoelectric effect.",
+      "s": [
+        1,
+        2
+      ]
+    }
+  ],
+  "uncertain": [
+    {
+      "text": "Which of the 1905 papers were written in the Kramgasse flat, as opposed to elsewhere in Bern, is not established by the sources used here; the marker shows his former home.",
+      "s": [
+        3
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Albert Einstein",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/biography/Albert-Einstein",
+      "supports": "Patent office in Bern, marriage, children, 1905 papers, Nobel Prize"
+    },
+    {
+      "title": "Albert Einstein – Biographical",
+      "publisher": "NobelPrize.org",
+      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
+      "supports": "Patent Office, 1905 doctorate, later posts"
+    },
+    {
+      "title": "Einsteinhaus (Q390003)",
+      "publisher": "Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q390003",
+      "supports": "Identification of Kramgasse 49 as a former residence, now a museum; coordinates"
+    }
+  ],
+  "image": {
+    "file": "Albert einstein house bern.JPG",
+    "alt": "Arcaded sandstone townhouses on Kramgasse in Bern, with the Einstein House among them",
+    "caption": "The Einstein House at Kramgasse 49, Bern."
+  },
+  "related": [
+    "curie-discovery-of-radium",
+    "dna-double-helix",
+    "world-wide-web-cern"
+  ]
+}

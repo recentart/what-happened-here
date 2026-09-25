@@ -1,0 +1,90 @@
+{
+  "slug": "woodstock-festival",
+  "title": "Woodstock Music and Art Fair",
+  "category": "culture",
+  "when": {
+    "label": "15–18 August 1969",
+    "start": [
+      1969,
+      8,
+      15
+    ],
+    "end": [
+      1969,
+      8,
+      18
+    ]
+  },
+  "where": {
+    "name": "Max Yasgur's farm, Bethel, New York",
+    "country": "United States",
+    "lat": 41.69687,
+    "lon": -74.87764,
+    "precision": "site",
+    "wikidata": "Q4897956",
+    "note": "The festival field is now the site of the Bethel Woods Center for the Arts and its museum."
+  },
+  "people": [
+    "Max Yasgur",
+    "Jimi Hendrix"
+  ],
+  "tags": [
+    "music festival",
+    "rock music",
+    "counterculture",
+    "1960s"
+  ],
+  "summary": "The most famous rock festival of the 1960s drew some 400,000 people to a farm in Bethel, New York — far more than the organisers expected.",
+  "description": [
+    "The Woodstock Music and Art Fair was organised by four inexperienced promoters who nonetheless booked many of the leading rock acts of the day, including Jimi Hendrix, Sly and the Family Stone, the Who and the Grateful Dead. The towns of Woodstock and Wallkill, New York, both refused permission to stage it; the farmer Max Yasgur then made his land in Bethel available.",
+    "Few tickets were sold, but some 400,000 people arrived, most of them getting in free because security was practically nonexistent. Rain turned the site into mud."
+  ],
+  "context": [
+    "The name Woodstock was kept because of the town's reputation as an artists' retreat and home to musicians such as Bob Dylan, even though the festival took place in Bethel. The site is now home to the Bethel Woods Center for the Arts and its museum."
+  ],
+  "facts": [
+    {
+      "text": "The festival was held on 15–18 August 1969 on a farm in Bethel, New York.",
+      "s": [
+        1
+      ]
+    },
+    {
+      "text": "Some 400,000 people attended.",
+      "s": [
+        1
+      ]
+    }
+  ],
+  "uncertain": [
+    {
+      "text": "Attendance can only be estimated because most people did not buy tickets; Britannica gives some 400,000.",
+      "s": [
+        1
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Woodstock",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/event/Woodstock",
+      "supports": "Dates, location, performers, attendance"
+    },
+    {
+      "title": "The Museum at Bethel Woods",
+      "publisher": "Bethel Woods Center for the Arts",
+      "url": "https://www.bethelwoodscenter.org/bethel-woods-museum",
+      "supports": "Museum on the festival site"
+    }
+  ],
+  "image": {
+    "file": "Woodstock redmond crowd.JPG",
+    "alt": "A huge crowd sitting on a grassy hillside facing a distant stage",
+    "caption": "Part of the crowd on the first day of the festival, 15 August 1969."
+  },
+  "related": [
+    "rite-of-spring-premiere",
+    "stonewall-uprising"
+  ]
+}

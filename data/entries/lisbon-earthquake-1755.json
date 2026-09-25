@@ -1,0 +1,96 @@
+{
+  "slug": "lisbon-earthquake-1755",
+  "title": "Lisbon earthquake of 1755",
+  "category": "disaster",
+  "when": {
+    "label": "1 November 1755",
+    "start": [
+      1755,
+      11,
+      1
+    ]
+  },
+  "where": {
+    "name": "Carmo Convent ruins, Lisbon",
+    "country": "Portugal",
+    "lat": 38.712222,
+    "lon": -9.14,
+    "precision": "area",
+    "wikidata": "Q1470414",
+    "note": "Marker placed at the Carmo Convent, whose roofless church was left in ruins by the earthquake. The shaking, tsunami and fires affected the whole city."
+  },
+  "people": [],
+  "tags": [
+    "earthquake",
+    "tsunami",
+    "fire",
+    "18th century",
+    "Enlightenment"
+  ],
+  "summary": "On All Saints' Day a series of earthquakes devastated Lisbon; a tsunami and fires that burned for about six days followed, and an estimated 60,000 people died in the city alone.",
+  "description": [
+    "On the morning of 1 November 1755 a series of earthquakes struck Lisbon, one of Europe's major port cities. Because it was All Saints' Day, many people were at mass when the shaking began.",
+    "Violent shaking demolished large public buildings and about 12,000 dwellings. The earthquake generated a tsunami with waves about 6 metres high at Lisbon, and fires burned throughout the city for about six days. Britannica estimates that about 60,000 people were killed in Lisbon alone, including those who drowned or died in the fires."
+  ],
+  "context": [
+    "Modern research indicates that the main seismic source was faulting of the sea floor along the plate boundaries in the Atlantic. The tsunami crossed the ocean to Martinique in the Caribbean in about 10 hours. Depictions of the disaster in art and literature continued for centuries.",
+    "The main nave of the Carmo Convent church, damaged in the earthquake, survives as a ruin in the centre of Lisbon."
+  ],
+  "facts": [
+    {
+      "text": "The earthquakes struck on the morning of 1 November 1755, All Saints' Day.",
+      "s": [
+        1
+      ]
+    },
+    {
+      "text": "About 12,000 dwellings were demolished.",
+      "s": [
+        1
+      ]
+    },
+    {
+      "text": "Tsunami waves reached about 6 metres at Lisbon and about 20 metres at Cádiz, Spain.",
+      "s": [
+        1
+      ]
+    },
+    {
+      "text": "Fires burned throughout Lisbon for about six days.",
+      "s": [
+        1
+      ]
+    }
+  ],
+  "uncertain": [
+    {
+      "text": "The death toll is an estimate. Britannica gives about 60,000 in Lisbon alone; no complete count exists.",
+      "s": [
+        1
+      ]
+    },
+    {
+      "text": "The earthquake happened before seismographs existed, so its source and size are reconstructed from historical accounts and modern research.",
+      "s": [
+        1
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Lisbon earthquake of 1755",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/event/Lisbon-earthquake-of-1755",
+      "supports": "Date, damage, tsunami, fires, estimated deaths, seismic source, Carmo Convent"
+    }
+  ],
+  "image": {
+    "file": "Lissabon - Convento do Carmo from Castle.jpg",
+    "alt": "The roofless Gothic ruins of the Carmo Convent church rising above Lisbon's rooftops",
+    "caption": "The ruins of the Carmo Convent church, Lisbon, seen in 2022."
+  },
+  "related": [
+    "san-francisco-earthquake-1906",
+    "pompeii-eruption-of-vesuvius"
+  ]
+}

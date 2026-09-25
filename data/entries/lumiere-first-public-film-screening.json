@@ -1,0 +1,86 @@
+{
+  "slug": "lumiere-first-public-film-screening",
+  "title": "The Lumière brothers' first public film screening",
+  "category": "culture",
+  "when": {
+    "label": "28 December 1895",
+    "start": [
+      1895,
+      12,
+      28
+    ]
+  },
+  "where": {
+    "name": "Salon Indien, Grand Café, boulevard des Capucines, Paris",
+    "place": "paris",
+    "country": "France",
+    "lat": 48.870278,
+    "lon": 2.329444,
+    "precision": "site",
+    "wikidata": "Q2399858"
+  },
+  "people": [
+    "Auguste Lumière",
+    "Louis Lumière"
+  ],
+  "tags": [
+    "cinema",
+    "film",
+    "Cinématographe",
+    "photography"
+  ],
+  "summary": "Auguste and Louis Lumière showed films with their Cinématographe to a paying audience at the Grand Café in Paris — an event widely treated as the beginning of cinema history.",
+  "description": [
+    "The Lumière brothers, photographic manufacturers from Lyon, developed the Cinématographe, a single machine that could both film and project moving pictures. Louis Lumière's solution was patented in 1895.",
+    "On 28 December 1895 a screening at the Grand Café on the boulevard des Capucines brought the invention wide public acclaim. Their film La Sortie des ouvriers de l'usine Lumière (Workers Leaving the Lumière Factory, 1895) is considered the first motion picture."
+  ],
+  "context": [
+    "The Lumières' early films recorded everyday French life — a train arriving, a card game, soldiers marching — along with some short comedies. The name 'cinema' derives from their Cinématographe."
+  ],
+  "facts": [
+    {
+      "text": "The screening took place on 28 December 1895 at the Grand Café on the boulevard des Capucines in Paris.",
+      "s": [
+        1,
+        2
+      ]
+    },
+    {
+      "text": "The Cinématographe was patented in 1895 and worked as both camera and projector.",
+      "s": [
+        1
+      ]
+    }
+  ],
+  "uncertain": [
+    {
+      "text": "Calling this the 'first' film screening depends on the definition: other inventors had shown moving pictures before, and Britannica describes it as the event that brought the Cinématographe wide public acclaim.",
+      "s": [
+        1
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Lumière brothers",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/biography/Lumiere-brothers",
+      "supports": "Cinématographe, patent, date and venue of the screening"
+    },
+    {
+      "title": "Salon Indien du Grand Café (Q2399858)",
+      "publisher": "Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q2399858",
+      "supports": "Venue identification and coordinates"
+    }
+  ],
+  "image": {
+    "file": "Lumière brothers.jpg",
+    "alt": "Black-and-white portrait of Auguste and Louis Lumière standing side by side",
+    "caption": "Auguste and Louis Lumière, around 1895."
+  },
+  "related": [
+    "rite-of-spring-premiere",
+    "eiffel-tower"
+  ]
+}

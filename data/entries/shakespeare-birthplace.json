@@ -1,0 +1,101 @@
+{
+  "slug": "shakespeare-birthplace",
+  "title": "William Shakespeare's birthplace",
+  "category": "person",
+  "when": {
+    "label": "Baptised 26 April 1564",
+    "start": [
+      1564,
+      4,
+      26
+    ],
+    "note": "Only the baptism date is recorded. His exact birth date is unknown; it is traditionally celebrated on 23 April."
+  },
+  "where": {
+    "name": "Shakespeare's Birthplace, Henley Street, Stratford-upon-Avon",
+    "country": "United Kingdom",
+    "lat": 52.1939,
+    "lon": -1.708,
+    "precision": "site",
+    "wikidata": "Q1770409"
+  },
+  "people": [
+    "William Shakespeare",
+    "John Shakespeare",
+    "Mary Shakespeare"
+  ],
+  "tags": [
+    "literature",
+    "theatre",
+    "Elizabethan England",
+    "playwright"
+  ],
+  "summary": "William Shakespeare grew up in this house in Stratford-upon-Avon, where his father worked as a glove maker; the parish register records his baptism on 26 April 1564.",
+  "description": [
+    "The parish register of Holy Trinity Church in Stratford-upon-Avon shows that William Shakespeare was baptised there on 26 April 1564. His exact birth date is not known; it must have been a few days earlier, and it is traditionally celebrated on 23 April.",
+    "He was the oldest surviving child of John and Mary Shakespeare. His father, a glove maker and a burgess of the town, became an alderman in 1565 and bailiff in 1568. The house on Henley Street, now called Shakespeare's Birthplace, was the family home where William spent his childhood."
+  ],
+  "context": [
+    "Shakespeare became a poet, dramatist and actor, often called England's national poet. He died in Stratford-upon-Avon on 23 April 1616."
+  ],
+  "facts": [
+    {
+      "text": "He was baptised at Holy Trinity Church, Stratford-upon-Avon, on 26 April 1564.",
+      "s": [
+        1,
+        2
+      ]
+    },
+    {
+      "text": "His father John Shakespeare was a glove maker who became an alderman in 1565 and bailiff in 1568.",
+      "s": [
+        1,
+        3
+      ]
+    },
+    {
+      "text": "He died in Stratford-upon-Avon on 23 April 1616.",
+      "s": [
+        1
+      ]
+    }
+  ],
+  "uncertain": [
+    {
+      "text": "His birth date is unknown. The Folger Shakespeare Library says he was 'probably born on about April 23, 1564', the traditional date, because many records from the period are lost or never existed.",
+      "s": [
+        2
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "William Shakespeare",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/biography/William-Shakespeare",
+      "supports": "Baptism, father's career, death"
+    },
+    {
+      "title": "Shakespeare's life",
+      "publisher": "Folger Shakespeare Library",
+      "url": "https://www.folger.edu/explore/shakespeares-life/",
+      "supports": "Baptism, uncertain birth date, family"
+    },
+    {
+      "title": "Shakespeare's Birthplace",
+      "publisher": "Shakespeare Birthplace Trust",
+      "url": "https://www.shakespeare.org.uk/visit/shakespeares-birthplace/",
+      "supports": "Childhood home, John Shakespeare's glove-making trade"
+    }
+  ],
+  "image": {
+    "file": "Shakespeare's Birthplace.jpg",
+    "alt": "A half-timbered Tudor house with a garden in front on Henley Street, Stratford-upon-Avon",
+    "caption": "Shakespeare's Birthplace on Henley Street, Stratford-upon-Avon."
+  },
+  "related": [
+    "great-fire-of-london",
+    "mozart-birthplace",
+    "leonardo-da-vinci-birthplace"
+  ]
+}

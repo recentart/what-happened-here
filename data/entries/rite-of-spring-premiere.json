@@ -1,0 +1,87 @@
+{
+  "slug": "rite-of-spring-premiere",
+  "title": "Premiere of The Rite of Spring",
+  "category": "culture",
+  "when": {
+    "label": "29 May 1913",
+    "start": [
+      1913,
+      5,
+      29
+    ]
+  },
+  "where": {
+    "name": "Théâtre des Champs-Élysées, Paris",
+    "place": "paris",
+    "country": "France",
+    "lat": 48.865833,
+    "lon": 2.303056,
+    "precision": "site",
+    "wikidata": "Q726531"
+  },
+  "people": [
+    "Igor Stravinsky",
+    "Vaslav Nijinsky",
+    "Serge Diaghilev",
+    "Nicholas Roerich"
+  ],
+  "tags": [
+    "ballet",
+    "music",
+    "modernism",
+    "Ballets Russes"
+  ],
+  "summary": "The first performance of Stravinsky's ballet The Rite of Spring caused an uproar so loud that the dancers could not hear the orchestra.",
+  "description": [
+    "The Rite of Spring (Le Sacre du printemps) was commissioned by Serge Diaghilev for his Ballets Russes. Igor Stravinsky developed its story with the artist Nicholas Roerich, who also designed the sets and costumes, and Vaslav Nijinsky choreographed it.",
+    "At the premiere on 29 May 1913, members of the audience cheered, protested and argued among themselves, creating such a noise that the dancers could not take their cues from the orchestra."
+  ],
+  "context": [
+    "The work is considered one of the first examples of Modernism in music, noted for its forceful rhythms and dissonance. Nijinsky's original choreography was seen in only seven performances before it was replaced; it was reconstructed by the Joffrey Ballet in 1987."
+  ],
+  "facts": [
+    {
+      "text": "The ballet premiered at the Théâtre des Champs-Élysées on 29 May 1913.",
+      "s": [
+        1
+      ]
+    },
+    {
+      "text": "It was choreographed by Nijinsky, with sets and costumes by Roerich, for Diaghilev's Ballets Russes.",
+      "s": [
+        1
+      ]
+    },
+    {
+      "text": "Nijinsky's original choreography was performed only seven times before being replaced.",
+      "s": [
+        1
+      ]
+    }
+  ],
+  "uncertain": [
+    {
+      "text": "The premiere is often called a 'riot'. Britannica describes an audience so divided and loud that the dancers could not hear the music; accounts of how violent the disturbance was vary.",
+      "s": [
+        1
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "The Rite of Spring",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/topic/The-Rite-of-Spring",
+      "supports": "Date, venue, creators, audience reaction, later reconstruction"
+    }
+  ],
+  "image": {
+    "file": "Le théâtre des Champs-Élysées à Paris, 2022.jpg",
+    "alt": "The white marble façade of the Théâtre des Champs-Élysées on avenue Montaigne, Paris",
+    "caption": "The Théâtre des Champs-Élysées, where The Rite of Spring premiered, photographed in 2022."
+  },
+  "related": [
+    "lumiere-first-public-film-screening",
+    "woodstock-festival"
+  ]
+}

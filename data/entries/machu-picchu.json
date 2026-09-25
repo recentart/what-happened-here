@@ -1,0 +1,78 @@
+{
+  "slug": "machu-picchu",
+  "title": "Machu Picchu",
+  "category": "landmark",
+  "when": {
+    "label": "15th century",
+    "start": [
+      1400
+    ],
+    "end": [
+      1499
+    ],
+    "approx": true,
+    "note": "UNESCO dates the construction to the 15th century; the exact date is not known."
+  },
+  "where": {
+    "name": "Urubamba Valley, Cusco Region",
+    "country": "Peru",
+    "lat": -13.163333,
+    "lon": -72.545556,
+    "precision": "site",
+    "wikidata": "Q676203"
+  },
+  "people": [],
+  "tags": [
+    "Inca Empire",
+    "Andes",
+    "citadel",
+    "terraces"
+  ],
+  "summary": "Built in the 15th century at more than 2,400 metres above sea level, Machu Picchu is the most significant surviving creation of the Inca Empire.",
+  "description": [
+    "Machu Picchu stands 2,430 metres above sea level on the eastern slopes of the Andes, surrounded by tropical mountain forest. Its walls, terraces and ramps are built into the rock escarpments of the mountain.",
+    "Built in the 15th century, it was abandoned when the Inca Empire was conquered by the Spanish in the 16th century. It was not until 1911 that the complex became known to the outside world."
+  ],
+  "context": [
+    "UNESCO describes Machu Picchu as probably the most remarkable urban creation of the Inca Empire at its height. Many questions remain unresolved, including the role it may have played in Inca astronomy. The Historic Sanctuary was inscribed as a UNESCO World Heritage Site in 1983."
+  ],
+  "facts": [
+    {
+      "text": "The site lies at 2,430 metres above sea level.",
+      "s": [
+        1
+      ]
+    },
+    {
+      "text": "It was abandoned after the Spanish conquest and made known to the outside world in 1911.",
+      "s": [
+        1
+      ]
+    }
+  ],
+  "uncertain": [
+    {
+      "text": "The exact date of construction and the site's precise purpose are not known; UNESCO notes that many of Machu Picchu's mysteries remain unresolved.",
+      "s": [
+        1
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Historic Sanctuary of Machu Picchu",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/274",
+      "supports": "Date, setting, abandonment, rediscovery, World Heritage status"
+    }
+  ],
+  "image": {
+    "file": "80 - Machu Picchu - Juin 2009 - edit.jpg",
+    "alt": "The stone ruins and terraces of Machu Picchu on a mountain ridge, with the peak of Huayna Picchu behind",
+    "caption": "Machu Picchu in June 2009."
+  },
+  "related": [
+    "fall-of-tenochtitlan",
+    "great-zimbabwe"
+  ]
+}

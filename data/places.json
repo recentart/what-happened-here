@@ -1,0 +1,84 @@
+[
+  {
+    "slug": "london",
+    "name": "London",
+    "country": "United Kingdom",
+    "lat": 51.507222, "lon": -0.1275,
+    "wikidata": "Q84",
+    "description": "Capital and largest city of England and the United Kingdom.",
+    "sources": [ { "title": "London (Q84)", "publisher": "Wikidata", "url": "https://www.wikidata.org/wiki/Q84", "supports": "Description and coordinates" } ],
+    "image": { "file": "London Skyline (125508655).jpeg", "alt": "The London skyline along the River Thames", "caption": "The London skyline." }
+  },
+  {
+    "slug": "paris",
+    "name": "Paris",
+    "country": "France",
+    "lat": 48.856667, "lon": 2.352222,
+    "wikidata": "Q90",
+    "description": "Capital and most populous city of France.",
+    "sources": [
+      { "title": "Paris (Q90)", "publisher": "Wikidata", "url": "https://www.wikidata.org/wiki/Q90", "supports": "Description and coordinates" },
+      { "title": "Paris, Banks of the Seine", "publisher": "UNESCO World Heritage Centre", "url": "https://whc.unesco.org/en/list/600", "supports": "World Heritage status of the Seine riverbanks" }
+    ],
+    "image": { "file": "La Tour Eiffel vue de la Tour Saint-Jacques, Paris août 2014 (2).jpg", "alt": "Paris rooftops with the Eiffel Tower in the distance", "caption": "Paris seen from the Tour Saint-Jacques, 2014." }
+  },
+  {
+    "slug": "rome",
+    "name": "Rome",
+    "country": "Italy",
+    "lat": 41.893056, "lon": 12.482778,
+    "wikidata": "Q220",
+    "description": "Capital and largest city of Italy. According to legend it was founded by Romulus and Remus in 753 BC; it was the centre of the Roman Republic and then of the Roman Empire.",
+    "sources": [
+      { "title": "Rome (Q220)", "publisher": "Wikidata", "url": "https://www.wikidata.org/wiki/Q220", "supports": "Description and coordinates" },
+      { "title": "Historic Centre of Rome", "publisher": "UNESCO World Heritage Centre", "url": "https://whc.unesco.org/en/list/91", "supports": "Legendary founding date, Roman Republic and Empire" }
+    ],
+    "image": { "file": "Rome Skyline (8012016319).jpg", "alt": "Rooftops and domes of Rome", "caption": "The skyline of Rome." }
+  },
+  {
+    "slug": "new-york-city",
+    "name": "New York City",
+    "country": "United States",
+    "lat": 40.712778, "lon": -74.006111,
+    "wikidata": "Q60",
+    "description": "Most populous city in the United States.",
+    "sources": [ { "title": "New York City (Q60)", "publisher": "Wikidata", "url": "https://www.wikidata.org/wiki/Q60", "supports": "Description and coordinates" } ],
+    "image": { "file": "NYC Downtown Manhattan Skyline seen from Paulus Hook 2019-12-20 IMG 7347 FRD (cropped).jpg", "alt": "The skyline of Lower Manhattan seen across the Hudson River", "caption": "Lower Manhattan seen from Paulus Hook, 2019." }
+  },
+  {
+    "slug": "washington-dc",
+    "name": "Washington, D.C.",
+    "country": "United States",
+    "lat": 38.895, "lon": -77.036667,
+    "wikidata": "Q61",
+    "description": "Capital city of the United States of America.",
+    "sources": [ { "title": "Washington, D.C. (Q61)", "publisher": "Wikidata", "url": "https://www.wikidata.org/wiki/Q61", "supports": "Description and coordinates" } ],
+    "image": { "file": "Aerial view of White House and downtown, Washington, D.C LCCN2010630891.jpg", "alt": "Aerial view of the White House and downtown Washington", "caption": "The White House and downtown Washington, photographed by Carol M. Highsmith in 2007." }
+  },
+  {
+    "slug": "istanbul",
+    "name": "Istanbul",
+    "country": "Türkiye",
+    "lat": 41.01, "lon": 28.960278,
+    "wikidata": "Q406",
+    "description": "Largest city in Türkiye, historically known as Byzantium and Constantinople. UNESCO notes that it has been associated with major political, religious and artistic events for more than 2,000 years.",
+    "sources": [
+      { "title": "Istanbul (Q406)", "publisher": "Wikidata", "url": "https://www.wikidata.org/wiki/Q406", "supports": "Description and coordinates" },
+      { "title": "Historic Areas of Istanbul", "publisher": "UNESCO World Heritage Centre", "url": "https://whc.unesco.org/en/list/356", "supports": "Historical significance" }
+    ],
+    "image": { "file": "Hagia Sophia Mars 2013.jpg", "alt": "Hagia Sophia's dome and minarets in Istanbul", "caption": "Hagia Sophia, Istanbul." }
+  },
+  {
+    "slug": "athens",
+    "name": "Athens",
+    "country": "Greece",
+    "lat": 37.984167, "lon": 23.728056,
+    "wikidata": "Q1524",
+    "description": "Capital and largest city of Greece. In the 5th century BC the Athenian statesman Pericles directed a building programme on the Acropolis that included the Parthenon.",
+    "sources": [
+      { "title": "Athens (Q1524)", "publisher": "Wikidata", "url": "https://www.wikidata.org/wiki/Q1524", "supports": "Description and coordinates" },
+      { "title": "Acropolis, Athens", "publisher": "UNESCO World Heritage Centre", "url": "https://whc.unesco.org/en/list/404", "supports": "5th-century building programme" }
+    ],
+    "image": { "file": "Akropolis 2015.jpg", "alt": "The Acropolis of Athens on its rocky hill above the city", "caption": "The Acropolis of Athens, 2015." }
+  }
+]

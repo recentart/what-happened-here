@@ -1,0 +1,90 @@
+{
+  "slug": "salt-march",
+  "title": "Gandhi's Salt March reaches Dandi",
+  "category": "event",
+  "featured": true,
+  "when": {
+    "label": "12 March – 6 April 1930",
+    "start": [
+      1930,
+      3,
+      12
+    ],
+    "end": [
+      1930,
+      4,
+      6
+    ]
+  },
+  "where": {
+    "name": "Dandi, Navsari district, Gujarat",
+    "country": "India",
+    "lat": 20.890571,
+    "lon": 72.805908,
+    "precision": "area",
+    "wikidata": "Q1026197",
+    "note": "Marker placed at Dandi, where the march ended and the salt law was broken; the march began at Sabarmati Ashram in Ahmedabad."
+  },
+  "people": [
+    "Mahatma Gandhi",
+    "Sarojini Naidu"
+  ],
+  "tags": [
+    "Indian independence movement",
+    "civil disobedience",
+    "satyagraha",
+    "nonviolence"
+  ],
+  "summary": "Mahatma Gandhi and 78 companions walked 241 miles from Sabarmati Ashram to the coast at Dandi to break the British salt law in a nonviolent act of civil disobedience.",
+  "description": [
+    "British law in India made it illegal for Indians to make or sell their own salt, forcing them to buy heavily taxed salt. On 12 March 1930 Gandhi set out from Sabarmati Ashram near Ahmedabad with 78 companions to walk 241 miles to the sea at Dandi.",
+    "On 6 April 1930, at Dandi, Gandhi broke the salt law by picking up salt. The march was the first act in a larger campaign of civil disobedience against British rule that extended into early 1931."
+  ],
+  "context": [
+    "Sabarmati Ashram had been Gandhi's home since 1917 and was a centre of the independence struggle. The Salt March drew wide support and international attention to the movement for Indian self-rule."
+  ],
+  "facts": [
+    {
+      "text": "Gandhi set out from Sabarmati Ashram on 12 March 1930 with 78 companions.",
+      "s": [
+        2
+      ]
+    },
+    {
+      "text": "The route to Dandi was 241 miles.",
+      "s": [
+        2
+      ]
+    },
+    {
+      "text": "The march began a civil disobedience campaign that extended into early 1931.",
+      "s": [
+        1
+      ]
+    }
+  ],
+  "uncertain": [],
+  "sources": [
+    {
+      "title": "Salt March",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/event/Salt-March",
+      "supports": "Purpose, salt tax, campaign"
+    },
+    {
+      "title": "History of Gandhi Ashram at Sabarmati",
+      "publisher": "Sabarmati Ashram Preservation and Memorial Trust",
+      "url": "https://www.gandhiashramsabarmati.org/en/about-gandhi-ashram-menu/history-menu.html",
+      "supports": "Start date, companions, distance, ashram history"
+    }
+  ],
+  "image": {
+    "file": "Gandhi at Dandi, 5 April 1930.jpg",
+    "alt": "Black-and-white photograph of Gandhi bending to pick up salt on the beach at Dandi, surrounded by followers",
+    "caption": "Gandhi at Dandi at the end of the Salt March, April 1930."
+  },
+  "related": [
+    "march-on-washington",
+    "taj-mahal"
+  ]
+}

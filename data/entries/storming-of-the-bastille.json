@@ -1,0 +1,79 @@
+{
+  "slug": "storming-of-the-bastille",
+  "title": "Storming of the Bastille",
+  "category": "event",
+  "featured": true,
+  "when": {
+    "label": "14 July 1789",
+    "start": [
+      1789,
+      7,
+      14
+    ]
+  },
+  "where": {
+    "name": "Place de la Bastille, Paris",
+    "place": "paris",
+    "country": "France",
+    "lat": 48.853139,
+    "lon": 2.369111,
+    "precision": "site",
+    "wikidata": "Q778784",
+    "note": "The fortress stood on what is now the Place de la Bastille; it was demolished after 1789."
+  },
+  "people": [
+    "Bernard Jordan, marquis de Launay"
+  ],
+  "tags": [
+    "French Revolution",
+    "Bastille Day",
+    "prison",
+    "revolution"
+  ],
+  "summary": "An armed crowd of Parisians captured the Bastille, a royal fortress and state prison, in one of the opening acts of the French Revolution.",
+  "description": [
+    "The Bastille was a medieval fortress on the east side of Paris that had become a state prison. On the morning of 14 July 1789 a crowd advanced on it to demand the arms and munitions stored inside from the governor, the marquis de Launay.",
+    "Angered by his evasive response, the crowd stormed and captured the fortress. Only seven prisoners were being held there at the time."
+  ],
+  "context": [
+    "The Bastille had long been a symbol of royal power, because prisoners could be held there on the king's direct order (a lettre de cachet). Its fall came to symbolise the end of the old regime, and it was later demolished by order of the Revolutionary government. 14 July is celebrated in France as Bastille Day."
+  ],
+  "facts": [
+    {
+      "text": "The Bastille was stormed on 14 July 1789.",
+      "s": [
+        1
+      ]
+    },
+    {
+      "text": "Seven prisoners were confined there on the day it was taken.",
+      "s": [
+        1
+      ]
+    },
+    {
+      "text": "The crowd had come to demand the arms and munitions stored in the fortress.",
+      "s": [
+        1
+      ]
+    }
+  ],
+  "uncertain": [],
+  "sources": [
+    {
+      "title": "Bastille",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/topic/Bastille",
+      "supports": "Date, prisoners, motives, symbolism"
+    }
+  ],
+  "image": {
+    "file": "Prise de la Bastille.jpg",
+    "alt": "Watercolour of smoke and crowds around the towers of the Bastille fortress during the attack",
+    "caption": "The storming of the Bastille, watercolour by Jean-Pierre Houël, 1789."
+  },
+  "related": [
+    "eiffel-tower",
+    "declaration-of-independence"
+  ]
+}

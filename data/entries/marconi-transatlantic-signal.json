@@ -1,0 +1,98 @@
+{
+  "slug": "marconi-transatlantic-signal",
+  "title": "Marconi's transatlantic radio signal",
+  "category": "invention",
+  "when": {
+    "label": "12 December 1901",
+    "start": [
+      1901,
+      12,
+      12
+    ]
+  },
+  "where": {
+    "name": "Signal Hill, St. John's, Newfoundland",
+    "country": "Canada",
+    "lat": 47.569722,
+    "lon": -52.681944,
+    "precision": "site",
+    "wikidata": "Q245680"
+  },
+  "people": [
+    "Guglielmo Marconi",
+    "George Kemp"
+  ],
+  "tags": [
+    "radio",
+    "wireless telegraphy",
+    "communication",
+    "Morse code"
+  ],
+  "summary": "On Signal Hill in Newfoundland, Guglielmo Marconi reported hearing a radio signal — the Morse letter 'S' — sent across the Atlantic from Cornwall.",
+  "description": [
+    "Some distinguished mathematicians had argued that the curvature of the Earth would limit radio communication to a few hundred kilometres. On 12 December 1901, at Signal Hill in St. John's, Marconi and his assistant George Kemp reported receiving signals transmitted from Poldhu in Cornwall.",
+    "Using a telephone receiver and a wire antenna held aloft by a kite, they heard the Morse code for the letter 'S'. The announcement created a sensation around the world."
+  ],
+  "context": [
+    "Marconi had filed his first patent in England in 1896. In 1909 he shared the Nobel Prize in Physics with Ferdinand Braun. Signal Hill, with Cabot Tower (built 1897–1900), is now a National Historic Site of Canada."
+  ],
+  "facts": [
+    {
+      "text": "Marconi and Kemp reported reception at Signal Hill on 12 December 1901 of signals sent from Poldhu, Cornwall.",
+      "s": [
+        1,
+        2
+      ]
+    },
+    {
+      "text": "They used a telephone receiver and a kite-borne wire antenna.",
+      "s": [
+        1
+      ]
+    },
+    {
+      "text": "Marconi shared the 1909 Nobel Prize in Physics with Ferdinand Braun.",
+      "s": [
+        2
+      ]
+    }
+  ],
+  "uncertain": [
+    {
+      "text": "The claim was met with some scepticism: the only witness was Kemp, the signals were too weak to operate an automatic recorder, and some historians have suggested Marconi picked up a harmonic on his untuned receiver. Two months later he received transatlantic signals strong enough to record in front of witnesses.",
+      "s": [
+        1
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Milestones: Reception of Transatlantic Radio Signals, 1901",
+      "publisher": "IEEE / Engineering and Technology History Wiki",
+      "url": "https://ethw.org/Milestones:Reception_of_Transatlantic_Radio_Signals,_1901",
+      "supports": "Date, method, witnesses, scepticism, later verification"
+    },
+    {
+      "title": "Guglielmo Marconi",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/biography/Guglielmo-Marconi",
+      "supports": "Date, Poldhu, reaction, Nobel Prize"
+    },
+    {
+      "title": "History – Signal Hill National Historic Site",
+      "publisher": "Parks Canada",
+      "url": "https://parks.canada.ca/lhn-nhs/nl/signalhill/culture/histoire-history",
+      "supports": "Site history, Cabot Tower"
+    }
+  ],
+  "image": {
+    "file": "Guglielmo Marconi.jpg",
+    "alt": "Black-and-white head-and-shoulders portrait of Guglielmo Marconi",
+    "caption": "Guglielmo Marconi, photographed by the Pach Brothers in 1908."
+  },
+  "related": [
+    "sinking-of-the-titanic",
+    "world-wide-web-cern",
+    "wright-brothers-first-flight"
+  ]
+}

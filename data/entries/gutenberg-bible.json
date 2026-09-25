@@ -1,0 +1,89 @@
+{
+  "slug": "gutenberg-bible",
+  "title": "Gutenberg prints the Bible with movable type",
+  "category": "invention",
+  "when": {
+    "label": "c. 1454–1455",
+    "start": [
+      1454
+    ],
+    "end": [
+      1455
+    ],
+    "approx": true,
+    "note": "The Library of Congress dates the printing to 1454/1455 and says it was probably completed late in 1455."
+  },
+  "where": {
+    "name": "Mainz",
+    "country": "Germany",
+    "lat": 49.999444,
+    "lon": 8.273611,
+    "precision": "city",
+    "wikidata": "Q1720",
+    "note": "Marker placed at the centre of Mainz; the exact workshop location is not shown."
+  },
+  "people": [
+    "Johannes Gutenberg",
+    "Johann Fust"
+  ],
+  "tags": [
+    "printing",
+    "movable type",
+    "books",
+    "Renaissance"
+  ],
+  "summary": "In Mainz, Johannes Gutenberg and his partner Johann Fust produced the first great book printed in Europe with movable metal type.",
+  "description": [
+    "Johannes Gutenberg, who lived from about 1400 to about 1468, is generally credited with inventing a process for making uniform, interchangeable metal type. With his partner Johann Fust he printed a Latin Bible in Mainz; the printing was probably completed late in 1455.",
+    "The print run may have been as many as 180 copies, about a quarter of them on vellum rather than paper."
+  ],
+  "context": [
+    "The first written reference to printing in Europe dates to 1455, when Aeneas Silvius Piccolomini, secretary to the Holy Roman Emperor Frederick III, wrote to a cardinal in Rome about a man he had met with bibles for sale. The Library of Congress describes the Gutenberg Bible as a turning point in the art of bookmaking."
+  ],
+  "facts": [
+    {
+      "text": "The Bible was printed in Mainz in 1454/1455 by Gutenberg and Fust.",
+      "s": [
+        1,
+        2
+      ]
+    },
+    {
+      "text": "Perhaps as many as 180 copies were printed.",
+      "s": [
+        1
+      ]
+    }
+  ],
+  "uncertain": [
+    {
+      "text": "The exact dates of Gutenberg's life and of the printing are not documented precisely; the Library of Congress gives 'about 1400 to about 1468' for his life.",
+      "s": [
+        2
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "The Gutenberg Bible at the Library of Congress: A Resource Guide",
+      "publisher": "Library of Congress",
+      "url": "https://guides.loc.gov/gutenberg",
+      "supports": "Date, place, printers, print run, early references"
+    },
+    {
+      "title": "The Gutenberg Bible",
+      "publisher": "Library of Congress (Bible Collection exhibition)",
+      "url": "https://www.loc.gov/exhibits/bibles/the-gutenberg-bible.html",
+      "supports": "Movable metal type, completion date, Gutenberg's dates"
+    }
+  ],
+  "image": {
+    "file": "Gutenberg Bible, Lenox Copy, New York Public Library, 2009. Pic 01.jpg",
+    "alt": "An open volume of the Gutenberg Bible with two columns of black Latin text",
+    "caption": "The Lenox copy of the Gutenberg Bible at the New York Public Library."
+  },
+  "related": [
+    "world-wide-web-cern",
+    "edison-incandescent-lamp"
+  ]
+}

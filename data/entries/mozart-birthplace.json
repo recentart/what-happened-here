@@ -1,0 +1,78 @@
+{
+  "slug": "mozart-birthplace",
+  "title": "Mozart born in Salzburg",
+  "category": "person",
+  "when": {
+    "label": "27 January 1756",
+    "start": [
+      1756,
+      1,
+      27
+    ]
+  },
+  "where": {
+    "name": "Mozart's Birthplace, Getreidegasse 9, Salzburg",
+    "country": "Austria",
+    "lat": 47.8,
+    "lon": 13.043333,
+    "precision": "site",
+    "wikidata": "Q3327039"
+  },
+  "people": [
+    "Wolfgang Amadeus Mozart",
+    "Leopold Mozart"
+  ],
+  "tags": [
+    "music",
+    "composer",
+    "Classical period",
+    "museum"
+  ],
+  "summary": "Wolfgang Amadeus Mozart was born on 27 January 1756 in the house at Getreidegasse 9 in Salzburg, now one of the most visited museums in the world.",
+  "description": [
+    "Mozart was born on 27 January 1756 in the house at Getreidegasse 9 in Salzburg, then the seat of an archbishopric. His father, Leopold Mozart, was the author of a famous violin-playing manual published in the year of Wolfgang's birth.",
+    "Before he was six, his father took him and his talented sister Nannerl to play at the Bavarian court in Munich and then at the imperial court in Vienna. The birthplace is now a museum of the International Mozarteum Foundation and one of the most visited museums in the world."
+  ],
+  "context": [
+    "Mozart is widely recognised as one of the greatest composers in the history of Western music; with Haydn and Beethoven he brought the Viennese Classical school to its height. He died in Vienna on 5 December 1791."
+  ],
+  "facts": [
+    {
+      "text": "Mozart was born on 27 January 1756 at Getreidegasse 9, Salzburg.",
+      "s": [
+        1,
+        2
+      ]
+    },
+    {
+      "text": "He died in Vienna on 5 December 1791.",
+      "s": [
+        2
+      ]
+    }
+  ],
+  "uncertain": [],
+  "sources": [
+    {
+      "title": "Mozart's birthplace",
+      "publisher": "International Mozarteum Foundation",
+      "url": "https://mozarteum.at/en/museums/mozarts-birthplace/",
+      "supports": "Birth date, address, museum"
+    },
+    {
+      "title": "Wolfgang Amadeus Mozart",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/biography/Wolfgang-Amadeus-Mozart",
+      "supports": "Biography, family, early tours, death"
+    }
+  ],
+  "image": {
+    "file": "Salzburg, Getreidegasse 9, Mozarts Geburtshaus.jpg",
+    "alt": "The tall yellow façade of Mozart's birthplace on Getreidegasse, with 'Mozarts Geburtshaus' painted on it",
+    "caption": "Mozart's birthplace at Getreidegasse 9, Salzburg, in 2012."
+  },
+  "related": [
+    "shakespeare-birthplace",
+    "rite-of-spring-premiere"
+  ]
+}
