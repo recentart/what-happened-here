@@ -4,7 +4,7 @@ import {
   CATEGORY, TIMELINE_STOPS, CURRENT_YEAR, buildIndex, search, filterEntries, formatYear, parseYear,
   yearToPos, posToYear, startYear, endYear, distanceKm, escapeHtml as esc,
 } from './lib.js';
-import { loadMapLibre, webglSupported, styleUrl, reduceMotion, categoryColor, strokeColor } from './map-common.js';
+import { loadMapLibre, webglSupported, pickStyle, FALLBACK_NOTE, reduceMotion, categoryColor, strokeColor } from './map-common.js';
 
 const $ = (id) => document.getElementById(id);
 const MIN = TIMELINE_STOPS[0];
@@ -132,21 +132,24 @@ function fitTo(list, extra = []) {
 
 async function initMap(focus) {
   if (!webglSupported()) throw new Error('Your browser cannot display the interactive map (WebGL is unavailable).');
-  const lib = await loadMapLibre();
+  const [lib, { style, fallback }] = await Promise.all([loadMapLibre(), pickStyle()]);
   map = new lib.Map({
-    container: 'map', style: styleUrl(), center: [15, 30], zoom: 1.3, minZoom: 1,
+    container: 'map', style, center: [15, 30], zoom: 1.3, minZoom: 1,
     attributionControl: { compact: true }, cooperativeGestures: false, dragRotate: false, pitchWithRotate: false,
   });
   map.touchZoomRotate.disableRotation();
   window.whhMap = map; // exposed for debugging and the browser test suite
   map.addControl(new lib.NavigationControl({ showCompass: false }), 'top-right');
-  map.on('error', (ev) => { if (!map.loaded()) showStatus('Some map tiles could not be loaded. The list of entries still works.'); console.warn(ev.error); });
+  let noted = false;
+  const note = () => { if (!noted) { noted = true; showNote(FALLBACK_NOTE); } };
+  // Tile or font failures after the style loaded: keep going, but say so once.
+  map.on('error', (ev) => { console.warn(ev.error); if (ev.sourceId || /tile|glyph|sprite/i.test(ev.error?.message || '')) note(); });
   await new Promise((resolve) => map.on('load', resolve));
 
   map.addSource('entries', { type: 'geojson', data: toGeoJSON(filterEntries(data.entries, index, state)), cluster: true, clusterRadius: 38, clusterMaxZoom: 11 });
   map.addLayer({ id: 'clusters', type: 'circle', source: 'entries', filter: ['has', 'point_count'],
     paint: { 'circle-color': '#7a2e22', 'circle-opacity': 0.92, 'circle-radius': ['step', ['get', 'point_count'], 15, 5, 19, 10, 24], 'circle-stroke-width': 2, 'circle-stroke-color': strokeColor() } });
-  map.addLayer({ id: 'cluster-count', type: 'symbol', source: 'entries', filter: ['has', 'point_count'],
+  if (style.glyphs) map.addLayer({ id: 'cluster-count', type: 'symbol', source: 'entries', filter: ['has', 'point_count'],
     layout: { 'text-field': ['get', 'point_count_abbreviated'], 'text-font': ['Noto Sans Regular'], 'text-size': 13, 'text-allow-overlap': true },
     paint: { 'text-color': '#ffffff' } });
   map.addLayer({ id: 'points', type: 'circle', source: 'entries', filter: ['!', ['has', 'point_count']],
@@ -165,6 +168,7 @@ async function initMap(focus) {
     map.on('mouseleave', layer, () => { map.getCanvas().style.cursor = ''; });
   }
   hideStatus();
+  if (fallback) note();
   document.body.dataset.mapReady = '1';
   if (focus && bySlug[focus]) openCard(focus, { fly: true });
   else if (state.q || state.cats.size || state.from !== MIN || state.to !== MAX) fitTo(filterEntries(data.entries, index, state));
@@ -172,6 +176,13 @@ async function initMap(focus) {
 
 function showStatus(msg) { els.status.textContent = msg; els.status.hidden = false; els.status.classList.add('error'); }
 function hideStatus() { els.status.hidden = true; }
+function showNote(msg) {
+  const n = document.createElement('p');
+  n.className = 'map-note';
+  n.setAttribute('role', 'status');
+  n.textContent = msg;
+  document.querySelector('.map-wrap').append(n);
+}
 
 // ---- Marker card -------------------------------------------------------------------------
 let returnFocus = null;

@@ -28,6 +28,8 @@ scripts/build.mjs     static site generator → site/
 site/                 build output (not committed); deployed as Cloudflare static assets
 ```
 
+If the tile server is unreachable, the map falls back to a plain background with all markers and cards still working, and says so. If a Wikimedia image fails, a placeholder links to the file on Commons.
+
 The map uses [MapLibre GL JS](https://maplibre.org) with free vector tiles from [OpenFreeMap](https://openfreemap.org) (OpenStreetMap data) — no API key. Search, category filters and the timeline run entirely in the browser against `/data/entries.json`.
 
 ## Commands
@@ -41,8 +43,9 @@ Requires Node 20+ (no dependencies).
 | `npm run validate` | Data checks: sources on every entry, every fact cites a source, valid dates/coordinates, licensed images, no thin place pages |
 | `npm run images` | Regenerate `data/images.json` (licence, author, thumbnail) from the Wikimedia Commons API |
 | `npm run check:coords` | Confirm every coordinate matches its Wikidata item |
-| `npm run check:sources` | Load every cited source page in headless Chrome and confirm every number in each entry appears in that entry's sources |
-| `node test/serve.mjs` then `node test/browser.mjs http://127.0.0.1:8788` | End-to-end browser tests (needs Chrome) |
+| `npm run check:sources` | Load every cited source page (headless Chrome/Chromium/Edge if installed, otherwise plain HTTP) and confirm that every number **and** every capitalised name in each entry appears in that entry's own sources |
+| `npm run dev` | Local preview with `wrangler dev` (runs the build first) |
+| `node test/serve.mjs` then `node test/browser.mjs http://127.0.0.1:8788` | End-to-end browser tests, including simulated tile-server and image-host outages (needs Chrome) |
 | `node test/site-audit.mjs` | SEO/link audit of the built site |
 | `npx wrangler deploy` | Build and deploy to Cloudflare (static-assets Worker, `wrangler.jsonc`) |
 
@@ -52,6 +55,8 @@ Requires Node 20+ (no dependencies).
 2. Find the site's Wikidata item and copy its coordinates: `node scripts/lookup.mjs "Wikipedia title"` prints the QID, coordinates and freely licensed Commons images.
 3. Create `data/entries/<slug>.json` following an existing entry. Put disputed points in `uncertain`; cite sources in each fact's `s` array (1-based).
 4. `npm run images && npm run validate && npm run check:coords && npm run check:sources && npm test`.
+
+Without a browser, `check:sources` falls back to plain HTTP; sites with bot protection (Britannica, UNESCO) refuse those requests, so install Chrome or set `CHROME_PATH` for full coverage. A failed fetch never overwrites a good cached copy. Genuine spelling variants between an entry and its source (e.g. Kyiv/Kiev) are listed, with the reason, in `scripts/check-names.mjs`.
 
 ## Advertising (future)
 

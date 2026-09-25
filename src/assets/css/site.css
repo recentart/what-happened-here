@@ -159,6 +159,8 @@ legend { font: 700 0.75rem/1 var(--sans); letter-spacing: 0.08em; text-transform
 .card-summary { margin: 0 0 14px; font-size: 0.95rem; }
 .card-close { position: absolute; right: 8px; top: 6px; border: 0; background: none; font-size: 1.6rem; line-height: 1; color: var(--muted); cursor: pointer; padding: 4px 8px; border-radius: 6px; }
 .card-close:hover { background: var(--bg-2); color: var(--ink); }
+.map-note { position: absolute; right: 56px; top: 10px; max-width: min(340px, calc(100% - 80px)); margin: 0; background: var(--panel); border: 1px solid var(--uncertain-line); border-radius: 8px; padding: 6px 10px; font-size: 0.82rem; color: var(--ink-2); box-shadow: var(--shadow); z-index: 4; }
+.img-missing { display: grid; place-items: center; text-align: center; min-height: 160px; padding: 16px; background: var(--bg-2); color: var(--muted); font-size: 0.9rem; border-radius: var(--radius); }
 .you-are-here { width: 18px; height: 18px; border-radius: 50%; background: var(--focus); border: 3px solid #fff; box-shadow: 0 0 0 6px rgb(29 95 191 / 25%); }
 .maplibregl-ctrl-attrib { font-size: 11px; }
 

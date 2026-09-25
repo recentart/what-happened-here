@@ -244,6 +244,24 @@ try {
   await go('/');
   check('no horizontal scroll at 1024px', await noHorizontalScroll());
 
+  // ---- Outages: tile server and image host unreachable ----
+  console.log('Resilience (tiles and images blocked)');
+  await viewport(1440, 900);
+  const errorsBefore = consoleErrors.length;
+  await c.send('Network.setBlockedURLs', { urls: ['*openfreemap.org*', '*wikimedia.org*'] });
+  await go('/');
+  check('map still loads without the tile server', await waitFor('document.body.dataset.mapReady === "1"', 30000));
+  check('fallback note is shown', await waitFor('!!document.querySelector(".map-note")', 5000));
+  check('markers still present on fallback map', await waitFor('whhMap.queryRenderedFeatures({layers:["points","clusters"]}).length > 0', 10000));
+  await shot('outage-home');
+  await evaluate(`document.querySelector(".locate[data-slug='colosseum']").click(); return true`);
+  check('cards still open on fallback map', await waitFor('document.getElementById("card-title")?.textContent === "The Colosseum"'));
+  await go('/event/colosseum');
+  check('broken image replaced by a Commons link', await waitFor(`!!document.querySelector(".entry-figure .img-missing a[href*='commons.wikimedia.org']")`, 10000));
+  await shot('outage-entry');
+  await c.send('Network.setBlockedURLs', { urls: [] });
+  consoleErrors.splice(errorsBefore); // blocked requests are expected to log errors
+
   check('no JavaScript errors', consoleErrors.length === 0, consoleErrors.slice(0, 5).join(' | '));
 } catch (err) {
   failures.push('crashed: ' + err.stack);

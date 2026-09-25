@@ -5,7 +5,9 @@
 //   node scripts/fetch-pages.mjs --sources      (every source URL in data/entries + data/places)
 //
 // Prints one JSON line per URL: status, final URL, title, text length and cache file.
-// Requires Google Chrome and Node 20+ (global fetch/WebSocket).
+// Uses Chrome, Chromium or Edge when installed (set CHROME_PATH to override); otherwise
+// falls back to plain HTTP requests, which some sites (e.g. Britannica) will refuse.
+// Requires Node 20+ (global fetch/WebSocket).
 
 import { spawn } from 'node:child_process';
 import { createHash } from 'node:crypto';
@@ -15,7 +17,16 @@ import { join, resolve } from 'node:path';
 const ROOT = resolve(import.meta.dirname, '..');
 const CACHE = join(ROOT, '.cache', 'pages');
 const PROFILE = join(ROOT, '.cache', 'chrome-profile');
-const CHROME = process.env.CHROME_PATH || 'C:/Program Files/Google/Chrome/Application/chrome.exe';
+const CHROME = process.env.FETCH_MODE === 'plain' ? null : [
+  process.env.CHROME_PATH,
+  'C:/Program Files/Google/Chrome/Application/chrome.exe',
+  'C:/Program Files (x86)/Google/Chrome/Application/chrome.exe',
+  'C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe',
+  'C:/Program Files/Microsoft/Edge/Application/msedge.exe',
+  '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome',
+  '/Applications/Chromium.app/Contents/MacOS/Chromium',
+  '/usr/bin/google-chrome', '/usr/bin/google-chrome-stable', '/usr/bin/chromium', '/usr/bin/chromium-browser', '/snap/bin/chromium',
+].find((p) => p && existsSync(p));
 const PORT = 9300 + Math.floor(Math.random() * 500);
 const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36';
 
@@ -31,6 +42,12 @@ function sourceUrls() {
   const places = join(ROOT, 'data', 'places.json');
   if (existsSync(places)) for (const p of JSON.parse(readFileSync(places, 'utf8'))) for (const s of p.sources || []) urls.add(s.url);
   return [...urls];
+}
+
+// Never replace a good cached copy with an error or bot-check page.
+function saveIfGood(url, status, content, text) {
+  if (status && status < 400 && (text || '').length >= 500) writeFileSync(cacheFile(url), content);
+  else if (!existsSync(cacheFile(url))) writeFileSync(cacheFile(url), content);
 }
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
@@ -97,27 +114,49 @@ async function load(url) {
   const status = main.status ?? null; const finalUrl = main.url || url;
   await fetch(`http://127.0.0.1:${PORT}/json/close/${target.id}`);
   const { title, text } = JSON.parse(r.result.value || '{}');
-  writeFileSync(cacheFile(url), `URL: ${url}\nFINAL: ${finalUrl}\nSTATUS: ${status}\nTITLE: ${title}\n\n${text}`);
+  saveIfGood(url, status, `URL: ${url}\nFINAL: ${finalUrl}\nSTATUS: ${status}\nTITLE: ${title}\n\n${text}`, text);
   return { url, status, finalUrl: finalUrl !== url ? finalUrl : undefined, title: (title || '').slice(0, 90), chars: (text || '').length, file: cacheFile(url).slice(ROOT.length + 1) };
 }
 
+// Fallback without a browser: plain request, HTML stripped to text.
+async function loadPlain(url) {
+  const res = await fetch(url, { headers: { 'User-Agent': UA, 'Accept-Language': 'en-GB,en;q=0.9' }, redirect: 'follow' });
+  const html = await res.text();
+  const title = (html.match(/<title[^>]*>([^<]*)<\/title>/i) || [])[1] || '';
+  const text = html.replace(/<(script|style|noscript|template|svg)[\s\S]*?<\/>/gi, ' ').replace(/<[^>]+>/g, ' ')
+    .replace(/&nbsp;/g, ' ').replace(/&amp;/g, '&').replace(/&#39;|&rsquo;/g, "'").replace(/&quot;/g, '"').replace(/\s+/g, ' ');
+  saveIfGood(url, res.status, `URL: ${url}
+FINAL: ${res.url}
+STATUS: ${res.status}
+TITLE: ${title}
+
+${text}`, text);
+  return { url, status: res.status, finalUrl: res.url !== url ? res.url : undefined, title: title.slice(0, 90), chars: text.length, file: cacheFile(url).slice(ROOT.length + 1), mode: 'plain' };
+}
+
+const needsAttention = (r) => r.error || !r.status || r.status >= 400 || r.chars < 500;
 const args = process.argv.slice(2);
 const urls = args[0] === '--sources' ? sourceUrls() : args;
-const chrome = spawn(CHROME, ['--headless=new', `--remote-debugging-port=${PORT}`, `--user-data-dir=${PROFILE}`, '--no-first-run', '--no-default-browser-check', '--mute-audio', 'about:blank'], { stdio: 'ignore' });
+if (!CHROME) console.warn('No Chrome/Chromium/Edge found: using plain HTTP requests. Some reference sites block these; set CHROME_PATH for full coverage.');
+const chrome = CHROME && spawn(CHROME, ['--headless=new', `--remote-debugging-port=${PORT}`, `--user-data-dir=${PROFILE}`, '--no-first-run', '--no-default-browser-check', '--mute-audio', 'about:blank'], { stdio: 'ignore' });
 try {
-  await waitForChrome();
+  if (chrome) await waitForChrome();
+  const get = async (u) => { try { return chrome ? await load(u) : await loadPlain(u); } catch (e) { return { url: u, error: e.message }; } };
   const queue = [...urls];
   const results = [];
   await Promise.all(Array.from({ length: 5 }, async () => {
     while (queue.length) {
       const u = queue.shift();
-      try { const r = await load(u); results.push(r); console.log(JSON.stringify(r)); }
-      catch (e) { const r = { url: u, error: e.message }; results.push(r); console.log(JSON.stringify(r)); }
+      let r = await get(u);
+      if (needsAttention(r)) r = await get(u); // one retry: bot checks and slow pages are often transient
+      results.push(r);
+      console.log(JSON.stringify(r));
     }
   }));
-  const bad = results.filter((r) => r.error || !r.status || r.status >= 400 || r.chars < 500);
-  console.log(`\n${results.length} pages, ${bad.length} need attention`);
+  const bad = results.filter(needsAttention);
+  console.log(`
+${results.length} pages, ${bad.length} need attention`);
   if (args[0] === '--sources' && bad.length) process.exitCode = 1;
 } finally {
-  chrome.kill();
+  if (chrome) chrome.kill();
 }

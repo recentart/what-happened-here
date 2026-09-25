@@ -151,7 +151,7 @@ ${main}
     </div>
   </div>
 </footer>
-${scripts.map((s) => `<script type="module" src="${s}"></script>`).join('\n')}
+${[asset('assets/js/site.js'), ...scripts].map((s) => `<script type="module" src="${s}"></script>`).join('\n')}
 </body>
 </html>
 `;

@@ -8,10 +8,11 @@
   "engines": { "node": ">=20" },
   "scripts": {
     "build": "node scripts/build.mjs",
+    "dev": "npx wrangler dev",
     "validate": "node scripts/validate.mjs",
     "images": "node scripts/enrich-images.mjs",
     "check:coords": "node scripts/check-coords.mjs",
-    "check:sources": "node scripts/fetch-pages.mjs --sources && node scripts/check-claims.mjs",
+    "check:sources": "node scripts/fetch-pages.mjs --sources && node scripts/check-claims.mjs && node scripts/check-names.mjs",
     "test": "node --test test/*.test.mjs",
     "deploy": "npx wrangler deploy"
   }

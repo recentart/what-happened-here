@@ -1,14 +1,14 @@
 // Small maps on entry and place pages. MapLibre is only loaded when a map scrolls into view.
 import { CATEGORY } from './lib.js';
-import { loadMapLibre, webglSupported, styleUrl } from './map-common.js';
+import { loadMapLibre, webglSupported, pickStyle, FALLBACK_NOTE } from './map-common.js';
 
 async function render(el) {
   const { center, markers } = JSON.parse(el.dataset.minimap);
   if (!webglSupported()) return;
-  const lib = await loadMapLibre();
+  const [lib, { style, fallback }] = await Promise.all([loadMapLibre(), pickStyle()]);
   el.classList.add('live');
   const map = new lib.Map({
-    container: el, style: styleUrl(), center, zoom: 12,
+    container: el, style, center, zoom: 12,
     attributionControl: { compact: true }, cooperativeGestures: true, dragRotate: false,
   });
   map.addControl(new lib.NavigationControl({ showCompass: false }), 'top-right');
@@ -26,6 +26,7 @@ async function render(el) {
     map.fitBounds(b, { padding: 40, maxZoom: 13, duration: 0 });
   }
   map.once('load', () => { el.dataset.ready = '1'; });
+  if (fallback) el.insertAdjacentHTML('afterend', `<p class="small">${FALLBACK_NOTE}</p>`);
   el.querySelector('.minimap-fallback')?.setAttribute('hidden', '');
 }
 
