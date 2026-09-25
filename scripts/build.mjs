@@ -52,6 +52,23 @@ copyDir(join(ROOT, 'src', 'vendor'), join(OUT, 'vendor'));
 copyDir(join(ROOT, 'src', 'static'), OUT);
 
 const hashes = {};
+// /assets/* is cached as immutable, so every module import must carry a content hash too.
+// Rewrite `from './x.js'` to `from './x.js?v=<hash>'`, dependencies first, so a change in
+// lib.js also changes the hash of every module that imports it.
+{
+  const dir = join(OUT, 'assets', 'js');
+  const done = new Map();
+  const stamp = (file) => {
+    if (done.has(file)) return done.get(file);
+    const path = join(dir, file);
+    const src = readFileSync(path, 'utf8').replace(/from '\.\/([\w-]+\.js)'/g, (_, dep) => `from './${dep}?v=${stamp(dep)}'`);
+    writeFileSync(path, src);
+    const h = createHash('sha1').update(src).digest('hex').slice(0, 10);
+    done.set(file, h);
+    return h;
+  };
+  for (const f of readdirSync(dir)) if (f.endsWith('.js')) stamp(f);
+}
 function asset(path) {
   if (!hashes[path]) hashes[path] = createHash('sha1').update(readFileSync(join(OUT, path))).digest('hex').slice(0, 10);
   return `/${path}?v=${hashes[path]}`;
